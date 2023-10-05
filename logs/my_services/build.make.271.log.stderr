@@ -1,0 +1,8 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:[m[K In member function ‘[01m[Kvoid PickPlaceAction_Server::executeCB(const PickPlaceGoalConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:372:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K-Wdeprecated-declarations[m[K]
+  372 |       moveit::planning_interface::MoveItErrorCode [01;35m[Kresult_m[m[K;
+      |                                                   [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:4[m[K:
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:64:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   64 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K

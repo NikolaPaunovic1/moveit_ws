@@ -1,0 +1,16 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multimesh_spawner.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multimesh_spawner.cpp:129:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kplate[m[K’ was not declared in this scope
+  129 | [01;31m[Kplate[m[K.meshes.push_back(mesh);
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multimesh_spawner.cpp:130:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kplate_pose[m[K’ was not declared in this scope
+  130 | plate.mesh_poses.push_back([01;31m[Kplate_pose[m[K);
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multimesh_spawner.cpp:146:8:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble scale_factor[m[K’
+  146 | double [01;31m[Kscale_factor[m[K = 0.001; // convert millimeters to meters
+      |        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multimesh_spawner.cpp:117:8:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble scale_factor[m[K’ previously declared here
+  117 | double [01;36m[Kscale_factor[m[K = 0.001; // convert millimeters to meters
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/multimesh_spawner.dir/build.make:63: CMakeFiles/multimesh_spawner.dir/src/multimesh_spawner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:303: CMakeFiles/multimesh_spawner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

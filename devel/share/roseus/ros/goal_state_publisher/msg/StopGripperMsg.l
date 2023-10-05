@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/goal_state_publisher/share/roseus/ros/goal_state_publisher/msg/StopGripperMsg.l

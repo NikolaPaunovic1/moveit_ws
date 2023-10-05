@@ -1,0 +1,8 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/depthcam_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/depthcam_demo.cpp:124:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kprimitive[m[K’ was not declared in this scope; did you mean ‘[01m[Kprimitive3[m[K’?
+  124 |   primitive3.dimensions[[01;31m[Kprimitive[m[K.BOX_X] = 0.02;
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                         [32m[Kprimitive3[m[K
+make[2]: *** [CMakeFiles/depthcam_demo.dir/build.make:63: CMakeFiles/depthcam_demo.dir/src/depthcam_demo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:272: CMakeFiles/depthcam_demo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

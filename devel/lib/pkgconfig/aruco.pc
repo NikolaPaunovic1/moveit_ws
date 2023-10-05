@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/aruco/lib/pkgconfig/aruco.pc

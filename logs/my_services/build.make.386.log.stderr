@@ -1,0 +1,16 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_PickPlace_Server.cpp:[m[K In constructor ‘[01m[KPickPlaceAction_Server::PickPlaceAction_Server(std::string)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_PickPlace_Server.cpp:73:26:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K.[m[K’ token
+   73 |     grasp_data object_id1[01;31m[K.[m[Kpregrasp_pose(rot_mat_grasp, translation_grasp);
+      |                          [01;31m[K^[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_PickPlace_Server.cpp:80:59:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(tf2::Transform) (tf2::Matrix3x3&, tf2::Vector3&)[m[K’
+   80 |     object_id1.place_pose(rot_mat_place, translation_place[01;31m[K)[m[K;
+      |                                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:37[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/my_services/src/Object_PickPlace_Server.cpp:6[m[K:
+[01m[K/opt/ros/noetic/include/tf2/LinearMath/Transform.h:91:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Vector3 tf2::Transform::operator()(const tf2::Vector3&) const[m[K’
+   91 |  TF2SIMD_FORCE_INLINE Vector3 [01;36m[Koperator[m[K()(const Vector3& x) const
+      |                               [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2/LinearMath/Transform.h:91:31:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+make[2]: *** [CMakeFiles/Object_PickPlace_Server.dir/build.make:63: CMakeFiles/Object_PickPlace_Server.dir/src/Object_PickPlace_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:294: CMakeFiles/Object_PickPlace_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/cmake/my_servicesConfig.cmake

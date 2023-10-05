@@ -1,0 +1,18 @@
+[01m[K/home/nikola/ws_moveit/src/goal_state_publisher/src/unity.cpp:[m[K In function ‘[01m[Kvoid singleCallback(const ConstPtr&, moveit::planning_interface::MoveGroupInterface*, ros::NodeHandle&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/goal_state_publisher/src/unity.cpp:43:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >& moveit::planning_interface::MoveGroupInterface::getJointNames() const[m[K’ is deprecated: use getVariableNames [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |     q.name = move_group_ptr->getJointNames([01;35m[K)[m[K;
+      |                                            [01;35m[K^[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/goal_state_publisher/src/utility.h:6[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/goal_state_publisher/src/unity.cpp:4[m[K:
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:187:74:[m[K [01;36m[Knote: [m[Kdeclared here
+  187 |   [[deprecated("use getVariableNames")]] const std::vector<std::string>& [01;36m[KgetJointNames[m[K() const
+      |                                                                          [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/goal_state_publisher/src/unity.cpp:[m[K In function ‘[01m[Kvoid fullCallback(const ConstPtr&, moveit::planning_interface::MoveGroupInterface*, ros::NodeHandle&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/goal_state_publisher/src/unity.cpp:94:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >& moveit::planning_interface::MoveGroupInterface::getJointNames() const[m[K’ is deprecated: use getVariableNames [[01;35m[K-Wdeprecated-declarations[m[K]
+   94 |     joint_state_msg.name = move_group_ptr->getJointNames([01;35m[K)[m[K;
+      |                                                          [01;35m[K^[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/goal_state_publisher/src/utility.h:6[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/goal_state_publisher/src/unity.cpp:4[m[K:
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:187:74:[m[K [01;36m[Knote: [m[Kdeclared here
+  187 |   [[deprecated("use getVariableNames")]] const std::vector<std::string>& [01;36m[KgetJointNames[m[K() const
+      |                                                                          [01;36m[K^~~~~~~~~~~~~[m[K

@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/my_services/share/roseus/ros/my_services/srv/PoseFinderService.l

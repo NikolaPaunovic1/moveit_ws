@@ -1,0 +1,13 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/urdf/model.h:50[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h:42[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/planning_scene_interface/include/moveit/planning_scene_interface/planning_scene_interface.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/multiobject_multicam_track.cpp:5[m[K:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multiobject_multicam_track.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multiobject_multicam_track.cpp:158:120:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf::StampedTransform[m[K’ has no member named ‘[01m[Kframe_id[m[K’; did you mean ‘[01m[Kframe_id_[m[K’?
+  158 |                 ROS_INFO("here is the pose %f and the header frame: %s", markers[i].tf2.getOrigin().z(),markers[i].tf2.[01;31m[Kframe_id[m[K.c_str());
+      |                                                                                                                        [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/multiobject_multicam_track.dir/build.make:63: CMakeFiles/multiobject_multicam_track.dir/src/multiobject_multicam_track.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2804: CMakeFiles/multiobject_multicam_track.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

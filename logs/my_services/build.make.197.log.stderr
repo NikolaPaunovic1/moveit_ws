@@ -1,0 +1,82 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:[m[K In constructor ‘[01m[KPickPlaceAction_Server::PickPlaceAction_Server(std::string)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:43:5:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Kconst[m[K’
+   43 |     [01;31m[Kconst[m[K double tau = 2 * M_PI,
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:43:5:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()[m[K’
+In file included from [01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:4[m[K:
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:154:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  154 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:154:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:141:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const string&, const std::shared_ptr<tf2_ros::Buffer>&, const ros::Duration&)[m[K’
+  141 |   [[deprecated]] [01;36m[KMoveGroupInterface[m[K(const std::string& group, const std::shared_ptr<tf2_ros::Buffer>& tf_buffer,
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:141:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:138:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const string&, const std::shared_ptr<tf2_ros::Buffer>&, const ros::WallDuration&)[m[K’
+  138 |   [01;36m[KMoveGroupInterface[m[K(const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:138:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:128:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const ros::Duration&)[m[K’
+  128 |   [[deprecated]] [01;36m[KMoveGroupInterface[m[K(const Options& opt, const std::shared_ptr<tf2_ros::Buffer>& tf_buffer,
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:128:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:125:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const ros::WallDuration&)[m[K’
+  125 |   [01;36m[KMoveGroupInterface[m[K(const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:125:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:43:5:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()[m[K’
+   43 |     [01;31m[Kconst[m[K double tau = 2 * M_PI,
+      |     [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:4[m[K:
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:154:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  154 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:154:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:141:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const string&, const std::shared_ptr<tf2_ros::Buffer>&, const ros::Duration&)[m[K’
+  141 |   [[deprecated]] [01;36m[KMoveGroupInterface[m[K(const std::string& group, const std::shared_ptr<tf2_ros::Buffer>& tf_buffer,
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:141:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:138:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const string&, const std::shared_ptr<tf2_ros::Buffer>&, const ros::WallDuration&)[m[K’
+  138 |   [01;36m[KMoveGroupInterface[m[K(const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:138:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:128:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const ros::Duration&)[m[K’
+  128 |   [[deprecated]] [01;36m[KMoveGroupInterface[m[K(const Options& opt, const std::shared_ptr<tf2_ros::Buffer>& tf_buffer,
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:128:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:125:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const ros::WallDuration&)[m[K’
+  125 |   [01;36m[KMoveGroupInterface[m[K(const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:125:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:43:5:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kactionlib::SimpleActionClient<franka_gripper::GraspAction_<std::allocator<void> > >::SimpleActionClient()[m[K’
+   43 |     [01;31m[Kconst[m[K double tau = 2 * M_PI,
+      |     [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:54[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:4[m[K:
+[01m[K/opt/ros/noetic/include/actionlib/client/simple_action_client.h:109:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kactionlib::SimpleActionClient<ActionSpec>::SimpleActionClient(ros::NodeHandle&, const string&, bool) [with ActionSpec = franka_gripper::GraspAction_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+  109 |   [01;36m[KSimpleActionClient[m[K(ros::NodeHandle & n, const std::string & name, bool spin_thread = true)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/actionlib/client/simple_action_client.h:109:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/noetic/include/actionlib/client/simple_action_client.h:93:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kactionlib::SimpleActionClient<ActionSpec>::SimpleActionClient(const string&, bool) [with ActionSpec = franka_gripper::GraspAction_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+   93 |   [01;36m[KSimpleActionClient[m[K(const std::string & name, bool spin_thread = true)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/actionlib/client/simple_action_client.h:93:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:40:3:[m[K [01;31m[Kerror: [m[Kuninitialized const member in ‘[01m[Kconst double[m[K’ [[01;31m[K-fpermissive[m[K]
+   40 |   [01;31m[KPickPlaceAction_Server[m[K(std::string name) :
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:35:16:[m[K [01;36m[Knote: [m[K‘[01m[Kconst double PickPlaceAction_Server::tau[m[K’ should be initialized
+   35 |   const double [01;36m[Ktau[m[K;
+      |                [01;36m[K^~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:43:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Kconst[m[K’
+   43 |     [01;31m[Kconst[m[K double tau = 2 * M_PI,
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:[m[K In member function ‘[01m[Kvoid PickPlaceAction_Server::executeCB(const PickPlaceGoalConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:127:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_object_pose[m[K’ was not declared in this scope
+  127 |     target_pose1.position = [01;31m[Kmy_object_pose[m[K.position;
+      |                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:175:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kattached_object[m[K’ was not declared in this scope
+  175 |     planning_scene_interface.applyAttachedCollisionObject([01;31m[Kattached_object[m[K);
+      |                                                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/PickPlace_Action_Server.dir/build.make:63: CMakeFiles/PickPlace_Action_Server.dir/src/PickPlace_Action_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/PickPlace_Action_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

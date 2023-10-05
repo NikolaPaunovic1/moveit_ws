@@ -1,0 +1,26 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:[m[K In constructor ‘[01m[KPickPlaceAction_Server::PickPlaceAction_Server(std::string)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:47:52:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kmoveit::planning_interface::MoveGroupInterface PLANNING_GROUP[m[K’
+   47 |     moveit::planning_interface::MoveGroupInterface([01;31m[KPLANNING_GROUP[m[K);
+      |                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:45:30:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst string PLANNING_GROUP[m[K’
+   45 |     static const std::string [01;36m[KPLANNING_GROUP[m[K = "panda_arm";
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:48:52:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kmoveit::planning_interface::MoveGroupInterface PLANNING_GRIPPER[m[K’
+   48 |     moveit::planning_interface::MoveGroupInterface([01;31m[KPLANNING_GRIPPER[m[K);
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:46:30:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst string PLANNING_GRIPPER[m[K’
+   46 |     static const std::string [01;36m[KPLANNING_GRIPPER[m[K = "panda_hand";
+      |                              [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:52:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+   52 |     joint_model_group = [01;31m[Kmove_group_interface[m[K->getCurrentState()->getJointModelGroup("panda_arm");
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:[m[K In member function ‘[01m[Kvoid PickPlaceAction_Server::executeCB(const PickPlaceGoalConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:109:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+  109 |     moveit::core::RobotStatePtr current_state = [01;31m[Kmove_group_interface[m[K.getCurrentState();
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:114:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_group[m[K’ was not declared in this scope
+  114 |     [01;31m[Kgripper_group[m[K.setStartState(*gripper_group.getCurrentState());
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/PickPlace_Action_Server.dir/build.make:63: CMakeFiles/PickPlace_Action_Server.dir/src/PickPlace_Action_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/PickPlace_Action_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

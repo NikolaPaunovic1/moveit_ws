@@ -1,0 +1,7 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_place.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_place.cpp:244:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KcomputePick[m[K’
+  244 |   move_group_interface.[01;31m[KcomputePick[m[K(grasps[0]);
+      |                        [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pick_place.dir/build.make:63: CMakeFiles/pick_place.dir/src/pick_place.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3066: CMakeFiles/pick_place.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

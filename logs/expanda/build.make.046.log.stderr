@@ -1,0 +1,10 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:136:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::msgs[m[K’ has not been declared
+  136 |   moveit::[01;31m[Kmsgs[m[K::CollisionObject object3;
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:137:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kobject3[m[K’ was not declared in this scope
+  137 |   [01;31m[Kobject3[m[K.header.frame_id = move_group_interface.getPlanningFrame();
+      |   [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/mg_interface.dir/build.make:63: CMakeFiles/mg_interface.dir/src/mg_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3442: CMakeFiles/mg_interface.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

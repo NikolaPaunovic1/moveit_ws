@@ -1,0 +1,15 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/urdf/model.h:50[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h:42[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/planning_scene_interface/include/moveit/planning_scene_interface/planning_scene_interface.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/multicam_track.cpp:5[m[K:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multicam_track.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multicam_track.cpp:224:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kmoveit_msgs::CollisionObject_<std::allocator<void> >::_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  224 |     ROS_INFO([01;35m[K"%d"[m[K,bin.id);
+      |              [01;35m[K^~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multicam_track.cpp:224:16:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  224 |     ROS_INFO("[01;36m[K%d[m[K",bin.id);
+      |               [01;36m[K~^[m[K
+      |                [01;36m[K|[m[K
+      |                [01;36m[Kint[m[K

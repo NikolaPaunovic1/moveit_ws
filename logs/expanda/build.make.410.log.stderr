@@ -1,0 +1,241 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::subscribe(const char [43], int, boost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >)[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;31m[K)[m[K;
+      |                                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&)[m[K’
+  402 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), T* obj,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(M)[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;36m[K)[m[K;
+      |                                                                                                                                              [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, T*, const ros::TransportHints&)[m[K’
+  413 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, T* obj,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(M) const[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;36m[K)[m[K;
+      |                                                                                                                                              [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), T*, const ros::TransportHints&)[m[K’
+  465 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;36m[K)[m[K;
+      |                                                                                                                                              [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, T*, const ros::TransportHints&)[m[K’
+  475 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const boost::shared_ptr<const M>&) const[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;36m[K)[m[K;
+      |                                                                                                                                              [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  529 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M),
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(M)[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;36m[K)[m[K;
+      |                                                                                                                                              [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  540 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(M) const[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;36m[K)[m[K;
+      |                                                                                                                                              [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  594 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;36m[K)[m[K;
+      |                                                                                                                                              [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  605 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const boost::shared_ptr<const M>&) const[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;36m[K)[m[K;
+      |                                                                                                                                              [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&)[m[K’
+  656 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(M), const TransportHints& transport_hints = TransportHints())
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(M)[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;36m[K)[m[K;
+      |                                                                                                                                              [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(const boost::shared_ptr<const M>&), const ros::TransportHints&)[m[K’
+  704 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(const boost::shared_ptr<M const>&), const TransportHints& transport_hints = TransportHints())
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;36m[K)[m[K;
+      |                                                                                                                                              [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(const boost::shared_ptr<const M>&)>&, const VoidConstPtr&, const ros::TransportHints&)[m[K’
+  750 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (const boost::shared_ptr<M const>&)>& callback,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >[m[K’ is not derived from ‘[01m[Kconst boost::function<void(const boost::shared_ptr<const M>&)>[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;36m[K)[m[K;
+      |                                                                                                                                              [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class C> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(C)>&, const VoidConstPtr&, const ros::TransportHints&)[m[K’
+  799 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (C)>& callback,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:44:142:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const geometry_msgs::Point_<std::allocator<void> > >&, geometry_msgs::Point_<std::allocator<void> >&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<geometry_msgs::Point_<std::allocator<void> > > > >[m[K’ is not derived from ‘[01m[Kconst boost::function<void(C)>[m[K’
+   44 |     ros::Subscriber hand_position_sub = nh.subscribe("/cartesian_impedance_controller/right_hand", 1, boost::bind(hand_cb, _1, hand_position)[01;36m[K)[m[K;
+      |                                                                                                                                              [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:836:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(ros::SubscribeOptions&)[m[K’
+  836 |   Subscriber [01;36m[Ksubscribe[m[K(SubscribeOptions& ops);
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:836:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::subscribe(const char [16], int, boost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >)[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;31m[K)[m[K;
+      |                                                                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&)[m[K’
+  402 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), T* obj,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(M)[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;36m[K)[m[K;
+      |                                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, T*, const ros::TransportHints&)[m[K’
+  413 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, T* obj,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(M) const[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;36m[K)[m[K;
+      |                                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), T*, const ros::TransportHints&)[m[K’
+  465 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;36m[K)[m[K;
+      |                                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, T*, const ros::TransportHints&)[m[K’
+  475 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const boost::shared_ptr<const M>&) const[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;36m[K)[m[K;
+      |                                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  529 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M),
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(M)[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;36m[K)[m[K;
+      |                                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  540 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(M) const[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;36m[K)[m[K;
+      |                                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  594 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;36m[K)[m[K;
+      |                                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  605 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const boost::shared_ptr<const M>&) const[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;36m[K)[m[K;
+      |                                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&)[m[K’
+  656 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(M), const TransportHints& transport_hints = TransportHints())
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(M)[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;36m[K)[m[K;
+      |                                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(const boost::shared_ptr<const M>&), const ros::TransportHints&)[m[K’
+  704 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(const boost::shared_ptr<M const>&), const TransportHints& transport_hints = TransportHints())
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;36m[K)[m[K;
+      |                                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(const boost::shared_ptr<const M>&)>&, const VoidConstPtr&, const ros::TransportHints&)[m[K’
+  750 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (const boost::shared_ptr<M const>&)>& callback,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >[m[K’ is not derived from ‘[01m[Kconst boost::function<void(const boost::shared_ptr<const M>&)>[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;36m[K)[m[K;
+      |                                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class C> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(C)>&, const VoidConstPtr&, const ros::TransportHints&)[m[K’
+  799 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (C)>& callback,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:48:109:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::_bi::bind_t<void, void (*)(boost::shared_ptr<const std_msgs::Int8_<std::allocator<void> > >&, int&), boost::_bi::list2<boost::arg<1>, boost::_bi::value<int> > >[m[K’ is not derived from ‘[01m[Kconst boost::function<void(C)>[m[K’
+   48 |     ros::Subscriber activity_sub = nh.subscribe("/activity_label", 1, boost::bind(activity_cb, _1, activity)[01;36m[K)[m[K;
+      |                                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:836:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(ros::SubscribeOptions&)[m[K’
+  836 |   Subscriber [01;36m[Ksubscribe[m[K(SubscribeOptions& ops);
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:836:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/nikola/ws_moveit/src/expanda/src/triplet_detection.cpp:68:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   68 |     for (int j = 0; [01;31m[Ki[m[K < 5; ++i) {object_ids.push_back("Bin" + std::to_string(i+1));}
+      |                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/triplet_detection.dir/build.make:63: CMakeFiles/triplet_detection.dir/src/triplet_detection.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:297: CMakeFiles/triplet_detection.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

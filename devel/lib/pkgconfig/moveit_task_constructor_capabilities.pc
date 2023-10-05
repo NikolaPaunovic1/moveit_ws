@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/moveit_task_constructor_capabilities/lib/pkgconfig/moveit_task_constructor_capabilities.pc

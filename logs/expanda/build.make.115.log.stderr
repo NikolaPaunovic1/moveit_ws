@@ -1,0 +1,25 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:139:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::AttachedCollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::AttachedCollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheader[m[K’
+  139 |   object3.[01;31m[Kheader[m[K.frame_id = move_group_interface.getPlanningFrame();
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:142:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::AttachedCollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::AttachedCollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+  142 |   object3.[01;31m[Kid[m[K = "object3";
+      |           [01;31m[K^~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:157:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::AttachedCollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::AttachedCollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kprimitives[m[K’
+  157 |   object3.[01;31m[Kprimitives[m[K.push_back(primitive3);
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:158:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::AttachedCollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::AttachedCollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kprimitive_poses[m[K’
+  158 |   object3.[01;31m[Kprimitive_poses[m[K.push_back(object3_pose);
+      |           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:159:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::AttachedCollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::AttachedCollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Koperation[m[K’
+  159 |   object3.[01;31m[Koperation[m[K = object3.ADD;
+      |           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:159:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::AttachedCollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::AttachedCollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[KADD[m[K’
+  159 |   object3.operation = object3.[01;31m[KADD[m[K;
+      |                               [01;31m[K^~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:282:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::AttachedCollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::AttachedCollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+  282 |   object_ids.push_back(object3.[01;31m[Kid[m[K);
+      |                                [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/pick_2.dir/build.make:63: CMakeFiles/pick_2.dir/src/pick_2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2582: CMakeFiles/pick_2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

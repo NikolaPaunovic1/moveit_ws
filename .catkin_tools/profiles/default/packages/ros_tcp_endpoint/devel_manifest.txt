@@ -1,0 +1,6 @@
+ROS-TCP-Endpoint-0.7.0
+/home/nikola/ws_moveit/devel/.private/ros_tcp_endpoint/cmake.lock /home/nikola/ws_moveit/devel/./cmake.lock
+/home/nikola/ws_moveit/devel/.private/ros_tcp_endpoint/share/ros_tcp_endpoint/cmake/ros_tcp_endpointConfig-version.cmake /home/nikola/ws_moveit/devel/share/ros_tcp_endpoint/cmake/ros_tcp_endpointConfig-version.cmake
+/home/nikola/ws_moveit/devel/.private/ros_tcp_endpoint/share/ros_tcp_endpoint/cmake/ros_tcp_endpointConfig.cmake /home/nikola/ws_moveit/devel/share/ros_tcp_endpoint/cmake/ros_tcp_endpointConfig.cmake
+/home/nikola/ws_moveit/devel/.private/ros_tcp_endpoint/lib/python3/dist-packages/ros_tcp_endpoint/__init__.py /home/nikola/ws_moveit/devel/lib/python3/dist-packages/ros_tcp_endpoint/__init__.py
+/home/nikola/ws_moveit/devel/.private/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc /home/nikola/ws_moveit/devel/lib/pkgconfig/ros_tcp_endpoint.pc

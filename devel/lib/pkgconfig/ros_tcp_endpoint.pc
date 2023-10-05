@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc

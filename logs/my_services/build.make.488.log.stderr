@@ -1,0 +1,8 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/retrigger_pick_place.cpp:[m[K In member function ‘[01m[Kvoid PickPlaceAction_Server::executeCB(const PickPlace2GoalConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/retrigger_pick_place.cpp:411:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_tools[m[K’ was not declared in this scope; did you mean ‘[01m[Krviz_visual_tools[m[K’?
+  411 |                   [01;31m[Kvisual_tools[m[K.prompt("Please put your hand under the end effector and click 'Next' in the RvizVisualToolsGui window to release the object");
+      |                   [01;31m[K^~~~~~~~~~~~[m[K
+      |                   [32m[Krviz_visual_tools[m[K
+make[2]: *** [CMakeFiles/retrigger_pick_place.dir/build.make:63: CMakeFiles/retrigger_pick_place.dir/src/retrigger_pick_place.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:308: CMakeFiles/retrigger_pick_place.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

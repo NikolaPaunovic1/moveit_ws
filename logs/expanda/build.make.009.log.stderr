@@ -1,0 +1,12 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:167:106:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::setPositionTarget(geometry_msgs::Pose_<std::allocator<void> >::_position_type&, const string&)[m[K’
+  167 |   move_group_interface.setPositionTarget(target_pose1.position, move_group_interface.getEndEffectorLink()[01;31m[K)[m[K;
+      |                                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:2[m[K:
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:556:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setPositionTarget(double, double, double, const string&)[m[K’
+  556 |   bool [01;36m[KsetPositionTarget[m[K(double x, double y, double z, const std::string& end_effector_link = "");
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:556:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+make[2]: *** [CMakeFiles/mg_interface.dir/build.make:63: CMakeFiles/mg_interface.dir/src/mg_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3442: CMakeFiles/mg_interface.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/cam_tripod_spawner.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/cam_tripod_spawner.cpp:72:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_object[m[K’ was not declared in this scope
+   72 |     cone.operation = [01;31m[Kcollision_object[m[K.ADD;
+      |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cam_tripod_spawner.dir/build.make:63: CMakeFiles/cam_tripod_spawner.dir/src/cam_tripod_spawner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:301: CMakeFiles/cam_tripod_spawner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

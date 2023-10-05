@@ -1,0 +1,6 @@
+<launch>
+  <!-- <param name="my_sensor_description" command="$(find xacro)/xacro $(find franka_description)/robots/my_sensors/myrobot.urdf.xacro"/> -->
+
+  <node name="spawn_kinect" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+  args="-urdf -file $(find franka_description)/robots/my_sensors/myrobot.urdf -model zed_model"/>
+</launch>

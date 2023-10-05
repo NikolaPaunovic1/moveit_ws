@@ -1,0 +1,6 @@
+common-sensors/common_sensors
+/home/nikola/ws_moveit/devel/.private/common_sensors/cmake.lock /home/nikola/ws_moveit/devel/./cmake.lock
+/home/nikola/ws_moveit/devel/.private/common_sensors/share/common_sensors/cmake/common_sensorsConfig-version.cmake /home/nikola/ws_moveit/devel/share/common_sensors/cmake/common_sensorsConfig-version.cmake
+/home/nikola/ws_moveit/devel/.private/common_sensors/share/common_sensors/cmake/common_sensorsConfig.cmake /home/nikola/ws_moveit/devel/share/common_sensors/cmake/common_sensorsConfig.cmake
+/home/nikola/ws_moveit/devel/.private/common_sensors/lib/libsensor_filters.so /home/nikola/ws_moveit/devel/lib/libsensor_filters.so
+/home/nikola/ws_moveit/devel/.private/common_sensors/lib/pkgconfig/common_sensors.pc /home/nikola/ws_moveit/devel/lib/pkgconfig/common_sensors.pc

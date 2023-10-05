@@ -1,0 +1,10 @@
+#goal definition
+uint8 id
+geometry_msgs/Pose pose
+string location
+---
+#result definition
+bool success
+---
+#feedback
+string info

@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="mg_interface" pkg="expanda" type="mg_interface" respawn="false" output="screen">
+  </node>
+
+</launch>

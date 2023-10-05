@@ -1,0 +1,7 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:21:29:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveGroupInterface[m[K’ is not a member of ‘[01m[Kmoveit::planning_interface[m[K’
+   21 | moveit::planning_interface::[01;31m[KMoveGroupInterface[m[K move_group_interface(PLANNING_GROUP);
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/track_object.dir/build.make:63: CMakeFiles/track_object.dir/src/track_object.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3986: CMakeFiles/track_object.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

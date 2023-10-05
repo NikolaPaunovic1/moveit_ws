@@ -1,0 +1,25 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:69:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject_<std::allocator<void> >::_primitive_poses_type[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::Pose_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kposition[m[K’
+   69 |     bin.primitive_poses.[01;31m[Kposition[m[K.x = t_bin1.getOrigin().x(); //set pose
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:70:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject_<std::allocator<void> >::_primitive_poses_type[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::Pose_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kposition[m[K’
+   70 |     bin.primitive_poses.[01;31m[Kposition[m[K.y = t_bin1.getOrigin().y();
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:71:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject_<std::allocator<void> >::_primitive_poses_type[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::Pose_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kposition[m[K’
+   71 |     bin.primitive_poses.[01;31m[Kposition[m[K.z = t_bin1.getOrigin().z();
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:72:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject_<std::allocator<void> >::_primitive_poses_type[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::Pose_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   72 |     bin.primitive_poses.[01;31m[Korientation[m[K.w= t_bin1.getRotation().w();
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:73:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject_<std::allocator<void> >::_primitive_poses_type[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::Pose_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   73 |     bin.primitive_poses.[01;31m[Korientation[m[K.x= t_bin1.getRotation().x();
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:74:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject_<std::allocator<void> >::_primitive_poses_type[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::Pose_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   74 |     bin.primitive_poses.[01;31m[Korientation[m[K.y= t_bin1.getRotation().y();
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:75:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject_<std::allocator<void> >::_primitive_poses_type[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::Pose_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   75 |     bin.primitive_poses.[01;31m[Korientation[m[K.z= t_bin1.getRotation().z();
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/track_object.dir/build.make:63: CMakeFiles/track_object.dir/src/track_object.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3986: CMakeFiles/track_object.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

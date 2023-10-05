@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nikola/ws_moveit/devel/.private/ros_tcp_endpoint/setup.sh

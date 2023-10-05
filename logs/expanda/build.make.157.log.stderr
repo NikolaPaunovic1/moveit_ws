@@ -1,0 +1,40 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/urdf/model.h:50[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h:42[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:2[m[K:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:[m[K In function ‘[01m[Kvoid feedbackCallback(const GraspFeedbackConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:22:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct franka_gripper::GraspFeedback_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kwidth[m[K’
+   22 |   ROS_INFO("Current gripper width: %f", feedback->[01;31m[Kwidth[m[K);
+      |                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:23:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct franka_gripper::GraspFeedback_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kforce[m[K’
+   23 |   ROS_INFO("Current gripper force: %f", feedback->[01;31m[Kforce[m[K);
+      |                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:[m[K In function ‘[01m[Kvoid doneCallback(const actionlib::SimpleClientGoalState&, const GraspResultConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:31:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct franka_gripper::GraspResult_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kerror_code[m[K’
+   31 |     ROS_WARN("Grasping command failed with error code %d.", result->[01;31m[Kerror_code[m[K);
+      |                                                                     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:48[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:71[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/opt/ros/noetic/include/urdf/model.h:50[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h:42[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:2[m[K:
+/usr/include/boost/function/function_template.hpp: In instantiation of ‘[01m[Kstatic void boost::detail::function::void_function_invoker0<FunctionPtr, R>::invoke(boost::detail::function::function_buffer&) [with FunctionPtr = void (*)(const boost::shared_ptr<const franka_gripper::GraspFeedback_<std::allocator<void> > >&); R = void][m[K’:
+[01m[K/usr/include/boost/function/function_template.hpp:931:38:[m[K   required from ‘[01m[Kvoid boost::function0<R>::assign_to(Functor) [with Functor = void (*)(const boost::shared_ptr<const franka_gripper::GraspFeedback_<std::allocator<void> > >&); R = void][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:720:7:[m[K   required from ‘[01m[Kboost::function0<R>::function0(Functor, typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type) [with Functor = void (*)(const boost::shared_ptr<const franka_gripper::GraspFeedback_<std::allocator<void> > >&); R = void; typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:1068:16:[m[K   required from ‘[01m[Kboost::function<R()>::function(Functor, typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type) [with Functor = void (*)(const boost::shared_ptr<const franka_gripper::GraspFeedback_<std::allocator<void> > >&); R = void; typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:298:57:[m[K   required from here
+[01m[K/usr/include/boost/function/function_template.hpp:117:11:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function
+  117 |           [01;31m[KBOOST_FUNCTION_RETURN[m[K(f(BOOST_FUNCTION_ARGS));
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/gazebo_pick.dir/build.make:63: CMakeFiles/gazebo_pick.dir/src/gazebo_pick.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:270: CMakeFiles/gazebo_pick.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

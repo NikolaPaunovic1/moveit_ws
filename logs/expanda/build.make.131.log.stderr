@@ -1,0 +1,28 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:270:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_msgs[m[K’ was not declared in this scope
+  270 |   actionlib::SimpleActionClient<[01;31m[Kcontrol_msgs[m[K::GripperCommandAction> client("/franka_gripper/command", true);
+      |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:270:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  270 |   actionlib::SimpleActionClient<control_msgs::GripperCommandAction[01;31m[K>[m[K client("/franka_gripper/command", true);
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:270:107:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  270 |   actionlib::SimpleActionClient<control_msgs::GripperCommandAction> client("/franka_gripper/command", true[01;31m[K)[m[K;
+      |                                                                                                           [01;31m[K^[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:271:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KwaitForServer[m[K’ in ‘[01m[Kclient[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  271 |   client.[01;31m[KwaitForServer[m[K();
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:274:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_msgs[m[K’ is not a class, namespace, or enumeration
+  274 |   [01;31m[Kcontrol_msgs[m[K::GripperCommandGoal goal;
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:275:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+  275 |   [01;31m[Kgoal[m[K.width = 0.02;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:280:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsendGoal[m[K’ in ‘[01m[Kclient[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  280 |   client.[01;31m[KsendGoal[m[K(goal);
+      |          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:319:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KcancelGoal[m[K’ in ‘[01m[Kclient[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  319 |   client.[01;31m[KcancelGoal[m[K();
+      |          [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pick_2.dir/build.make:63: CMakeFiles/pick_2.dir/src/pick_2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2052: CMakeFiles/pick_2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

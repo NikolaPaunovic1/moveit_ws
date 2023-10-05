@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake

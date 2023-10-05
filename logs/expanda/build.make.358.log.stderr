@@ -1,0 +1,15 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/testing_pickplace_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/testing_pickplace_server.cpp:50:25:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kactionlib::SimpleClientGoalState actionlib::SimpleActionClient<ActionSpec>::getState() const [with ActionSpec = my_services::PickPlaceAction_<std::allocator<void> >][m[K’
+   50 |   std::string info = [01;31m[Kac.getState[m[K
+      |                      [01;31m[K~~~^~~~~~~~[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:54[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/testing_pickplace_server.cpp:4[m[K:
+[01m[K/opt/ros/noetic/include/actionlib/client/simple_action_client.h:338:23:[m[K [01;36m[Knote: [m[Kdeclared here
+  338 | SimpleClientGoalState [01;36m[KSimpleActionClient<ActionSpec>[m[K::getState() const
+      |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/testing_pickplace_server.cpp:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+   58 |   [01;31m[Kelse[m[K
+      |   [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/testing_pickplace_server.dir/build.make:63: CMakeFiles/testing_pickplace_server.dir/src/testing_pickplace_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/testing_pickplace_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

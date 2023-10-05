@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<launch>
+
+
+    <!-- IMPORTANT SETTINGS - SET CAM POSES - SERIAL NUMBERS - BASE FRAMES -->
+
+<!-- CAMERA 1 --> 
+    <!-- Serial Number -->
+    <arg name="camera_sn_1"             default="34783283" /> <!-- Very important to be able to identify the camera uniquely--> 
+    <!-- Base frame -->
+    <arg name="base_frame_1"            default="world" />
+    <!-- Position and Orientation respect to base frame -->
+    <arg name="cam_pos_x_1"             default="1" />
+    <arg name="cam_pos_y_1"             default="0.0" />
+    <arg name="cam_pos_z_1"             default="0.0" />
+    <arg name="cam_roll_1"              default="0.0" />
+    <arg name="cam_pitch_1"             default="0.0" />
+    <arg name="cam_yaw_1"               default="0.0" /> <!-- Looking forward -->
+
+<!-- CAMERA 2 --> 
+    <!-- Serial Number -->
+    <arg name="camera_sn_2"             default="32689769" /> <!-- Very important to be able to identify the camera uniquely-->  
+    <!-- Base frame -->
+    <arg name="base_frame_2"            default="world" />
+    <!-- Position and Orientation respect to base frame -->
+    <arg name="cam_pos_x_2"             default="1.30973982" />
+    <arg name="cam_pos_y_2"             default="0.31183456" />
+    <arg name="cam_pos_z_2"             default="0.17876228" />
+    <arg name="cam_roll_2"              default="0.8029946404573999" />
+    <arg name="cam_pitch_2"             default="0.6073047003610967" />
+    <arg name="cam_yaw_2"               default="-1.4043297617609907" />
+
+
+    <!-- ADDITIONAL SETTINGS-->
+    <!-- Choose if Rviz should be started -->
+    <arg name="start_rviz"              default="false" />
+    <!-- CAMERA 1 -->
+    <arg name="camera_name_1"           default="zed2i_long" /> <!-- The name you want -->
+    <arg name="camera_model_1"          default="zed2i" /> <!-- 'zed' or 'zedm' or 'zed2' -->    
+    <arg name="zed_nodelet_name_1"      default="zed_nodelet_front" />
+    <!-- Publish ZED urdf -->
+    <arg name="publish_urdf_1"          default="true" />
+    <!-- Publish odom TF -->
+    <arg name="publish_tf_1"            default="true" />
+    <arg name="gpu_id_1"                default="-1" />
+    <!-- CAMERA 2 -->
+    <arg name="camera_name_2"           default="zed2i_short" /> <!-- The name you want -->
+    <arg name="camera_model_2"          default="zed2i" /> <!-- 'zed' or 'zedm' or 'zed2' -->    
+    <arg name="zed_nodelet_name_2"      default="zed_nodelet_rear" />
+    <!-- Publish ZED urdf -->
+    <arg name="publish_urdf_2"          default="true" />
+    <!-- Publish odom TF -->
+    <arg name="publish_tf_2"            default="false" /> <!-- Only one node must pushish TF, unless you use a Kalman filter to fuse odometries -->
+    <arg name="gpu_id_2"                default="-1" />
+
+
+  <include file="$(find zed_multicamera_example)/launch/zed_multicam_single_nodelet.launch">
+    <arg name="start_rviz"                        value="$(arg start_rviz)" />
+    <arg name="camera_name_1"                     value="$(arg camera_name_1)" />
+    <arg name="camera_model_1"                    value="$(arg camera_model_1)" />
+    <arg name="base_frame_1"                      value="$(arg base_frame_1)" />
+    <arg name="publish_urdf_1"                    value="$(arg publish_urdf_1)" />
+    <arg name="publish_tf_1"                      value="$(arg publish_tf_1)" />
+    <arg name="camera_sn_1"                      value="$(arg camera_sn_1)" />
+    <arg name="gpu_id_1"                          value="$(arg gpu_id_1)" />
+    <arg name="cam_pos_x_1"                       value="$(arg cam_pos_x_1)" />
+    <arg name="cam_pos_y_1"                       value="$(arg cam_pos_y_1)" />
+    <arg name="cam_pos_z_1"                       value="$(arg cam_pos_z_1)" />
+    <arg name="cam_roll_1"                        value="$(arg cam_roll_1)" />
+    <arg name="cam_pitch_1"                       value="$(arg cam_pitch_1)" />
+    <arg name="cam_yaw_1"                         value="$(arg cam_yaw_1)" />   
+    <arg name="camera_name_2"                     value="$(arg camera_name_2)" />
+    <arg name="camera_model_2"                    value="$(arg camera_model_2)" />
+    <arg name="base_frame_2"                      value="$(arg base_frame_2)" />
+    <arg name="publish_urdf_2"                    value="$(arg publish_urdf_2)" />
+    <arg name="publish_tf_2"                      value="$(arg publish_tf_2)" />
+    <arg name="camera_sn_2"                      value="$(arg camera_sn_2)" />
+    <arg name="gpu_id_2"                          value="$(arg gpu_id_2)" />
+    <arg name="cam_pos_x_2"                       value="$(arg cam_pos_x_2)" />
+    <arg name="cam_pos_y_2"                       value="$(arg cam_pos_y_2)" />
+    <arg name="cam_pos_z_2"                       value="$(arg cam_pos_z_2)" />
+    <arg name="cam_roll_2"                        value="$(arg cam_roll_2)" />
+    <arg name="cam_pitch_2"                       value="$(arg cam_pitch_2)" />
+    <arg name="cam_yaw_2"                         value="$(arg cam_yaw_2)" />   
+  </include>
+
+  <node pkg="vision_pkg" type="cloud_merger" name="cloud_merger" output="screen"/>
+
+</launch>

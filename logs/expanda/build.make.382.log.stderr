@@ -1,0 +1,7 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/testing_pickplace_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/testing_pickplace_server.cpp:70:36:[m[K [01;31m[Kerror: [m[K‘[01m[KscaleAndPaddMesh[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   70 |   shapes::Mesh* m_scaled = shapes::[01;31m[KscaleAndPaddMesh[m[K(*m, scale);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/testing_pickplace_server.dir/build.make:63: CMakeFiles/testing_pickplace_server.dir/src/testing_pickplace_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/testing_pickplace_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

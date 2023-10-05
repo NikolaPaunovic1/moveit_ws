@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find expanda)/launch/depthcam.launch"/>
+  <include file="$(find expanda)/launch/spawn_stick_env.launch"/>
+  <node pkg="expanda" type="cloud_merger" name="cloud_merger" output="screen"/>
+  <node pkg="my_services" type="Object_Detection_Server" name="Object_Detection_Server" output="screen"/>
+
+</launch>

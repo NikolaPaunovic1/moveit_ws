@@ -1,0 +1,10 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:[m[K In member function ‘[01m[Kvoid PickPlaceAction_Server::executeCB(const PickPlaceGoalConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:363:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmove_group_interface[m[K’
+  363 |                   gripper_group.move()
+      |                                       [01;31m[K^[m[K
+      |                                       [32m[K;[m[K
+  364 |                   [32m[Kmove_group_interface[m[K.detachObject(attached_object.object.id);
+      |                   [32m[K~~~~~~~~~~~~~~~~~~~~[m[K 
+make[2]: *** [CMakeFiles/PickPlace_Action_Server.dir/build.make:63: CMakeFiles/PickPlace_Action_Server.dir/src/PickPlace_Action_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/PickPlace_Action_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

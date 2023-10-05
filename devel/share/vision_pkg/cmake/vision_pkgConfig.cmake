@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/vision_pkg/share/vision_pkg/cmake/vision_pkgConfig.cmake

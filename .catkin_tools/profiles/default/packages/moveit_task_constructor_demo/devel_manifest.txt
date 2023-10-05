@@ -1,0 +1,12 @@
+moveit_task_constructor/demo
+/home/nikola/ws_moveit/devel/.private/moveit_task_constructor_demo/cmake.lock /home/nikola/ws_moveit/devel/./cmake.lock
+/home/nikola/ws_moveit/devel/.private/moveit_task_constructor_demo/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig.cmake /home/nikola/ws_moveit/devel/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig.cmake
+/home/nikola/ws_moveit/devel/.private/moveit_task_constructor_demo/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig-version.cmake /home/nikola/ws_moveit/devel/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig-version.cmake
+/home/nikola/ws_moveit/devel/.private/moveit_task_constructor_demo/lib/libmoveit_task_constructor_demo_pick_place_task.so /home/nikola/ws_moveit/devel/lib/libmoveit_task_constructor_demo_pick_place_task.so
+/home/nikola/ws_moveit/devel/.private/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/cartesian /home/nikola/ws_moveit/devel/lib/moveit_task_constructor_demo/cartesian
+/home/nikola/ws_moveit/devel/.private/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/pick_place_demo /home/nikola/ws_moveit/devel/lib/moveit_task_constructor_demo/pick_place_demo
+/home/nikola/ws_moveit/devel/.private/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/alternative_path_costs /home/nikola/ws_moveit/devel/lib/moveit_task_constructor_demo/alternative_path_costs
+/home/nikola/ws_moveit/devel/.private/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/ik_clearance_cost /home/nikola/ws_moveit/devel/lib/moveit_task_constructor_demo/ik_clearance_cost
+/home/nikola/ws_moveit/devel/.private/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/modular /home/nikola/ws_moveit/devel/lib/moveit_task_constructor_demo/modular
+/home/nikola/ws_moveit/devel/.private/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/fallbacks_move_to /home/nikola/ws_moveit/devel/lib/moveit_task_constructor_demo/fallbacks_move_to
+/home/nikola/ws_moveit/devel/.private/moveit_task_constructor_demo/lib/pkgconfig/moveit_task_constructor_demo.pc /home/nikola/ws_moveit/devel/lib/pkgconfig/moveit_task_constructor_demo.pc

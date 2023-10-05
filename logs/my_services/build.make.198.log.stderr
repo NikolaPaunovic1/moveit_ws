@@ -1,0 +1,41 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:[m[K In constructor ‘[01m[KPickPlaceAction_Server::PickPlaceAction_Server(std::string)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:40:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K=[m[K’ token
+   40 |     tau [01;31m[K=[m[K 2 * M_PI,
+      |         [01;31m[K^[m[K
+      |         [32m[K([m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:40:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kactionlib::SimpleActionClient<franka_gripper::GraspAction_<std::allocator<void> > >::SimpleActionClient()[m[K’
+In file included from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:54[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:4[m[K:
+[01m[K/opt/ros/noetic/include/actionlib/client/simple_action_client.h:109:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kactionlib::SimpleActionClient<ActionSpec>::SimpleActionClient(ros::NodeHandle&, const string&, bool) [with ActionSpec = franka_gripper::GraspAction_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+  109 |   [01;36m[KSimpleActionClient[m[K(ros::NodeHandle & n, const std::string & name, bool spin_thread = true)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/actionlib/client/simple_action_client.h:109:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/noetic/include/actionlib/client/simple_action_client.h:93:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kactionlib::SimpleActionClient<ActionSpec>::SimpleActionClient(const string&, bool) [with ActionSpec = franka_gripper::GraspAction_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+   93 |   [01;36m[KSimpleActionClient[m[K(const std::string & name, bool spin_thread = true)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/actionlib/client/simple_action_client.h:93:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:37:3:[m[K [01;31m[Kerror: [m[Kuninitialized const member in ‘[01m[Kconst double[m[K’ [[01;31m[K-fpermissive[m[K]
+   37 |   [01;31m[KPickPlaceAction_Server[m[K(std::string name) :
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:32:16:[m[K [01;36m[Knote: [m[K‘[01m[Kconst double PickPlaceAction_Server::tau[m[K’ should be initialized
+   32 |   const double [01;36m[Ktau[m[K;
+      |                [01;36m[K^~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:40:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K=[m[K’ token
+   40 |     tau [01;31m[K=[m[K 2 * M_PI,
+      |         [01;31m[K^[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:[m[K In member function ‘[01m[Kvoid PickPlaceAction_Server::executeCB(const PickPlaceGoalConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:105:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+  105 |     moveit::core::RobotStatePtr current_state = [01;31m[Kmove_group_interface[m[K.getCurrentState();
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:110:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_group[m[K’ was not declared in this scope
+  110 |     [01;31m[Kgripper_group[m[K.setStartState(*gripper_group.getCurrentState());
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:125:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_object_pose[m[K’ was not declared in this scope
+  125 |     target_pose1.position = [01;31m[Kmy_object_pose[m[K.position;
+      |                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:173:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kattached_object[m[K’ was not declared in this scope
+  173 |     planning_scene_interface.applyAttachedCollisionObject([01;31m[Kattached_object[m[K);
+      |                                                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/PickPlace_Action_Server.dir/build.make:63: CMakeFiles/PickPlace_Action_Server.dir/src/PickPlace_Action_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/PickPlace_Action_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

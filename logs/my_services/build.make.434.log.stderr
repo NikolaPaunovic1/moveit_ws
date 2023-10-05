@@ -1,0 +1,14 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Pose_Finder_Server.cpp:[m[K In constructor ‘[01m[KPoseFinderService::PoseFinderService(ros::NodeHandle&, moveit::planning_interface::PlanningSceneInterface&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Pose_Finder_Server.cpp:14:7:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPoseFinderService[m[K’ does not have any field named ‘[01m[Kplanning_scene_interface_[m[K’
+   14 |     : [01;31m[Kplanning_scene_interface_[m[K(planning_scene_interface)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Pose_Finder_Server.cpp:[m[K In member function ‘[01m[Kbool PoseFinderService::handleRequest(my_services::PoseFinderService::Request&, my_services::PoseFinderService::Response&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Pose_Finder_Server.cpp:49:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface_[m[K’ was not declared in this scope
+   49 |         object_poses = [01;31m[Kplanning_scene_interface_[m[K.getObjectPoses(object_ids);
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Pose_Finder_Server.cpp:64:34:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   64 |                 for (const auto& [01;35m[K[[m[Kobject_id, pose] : object_poses){
+      |                                  [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/Pose_Finder_Server.dir/build.make:63: CMakeFiles/Pose_Finder_Server.dir/src/Pose_Finder_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:359: CMakeFiles/Pose_Finder_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

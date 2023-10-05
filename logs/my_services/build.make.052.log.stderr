@@ -1,0 +1,10 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:24:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   24 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:[m[K In constructor ‘[01m[KObjectDetectionService::ObjectDetectionService(ros::NodeHandle&, moveit::planning_interface::PlanningSceneInterface&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:23:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Kcoefficients_box[m[K’
+   23 |           [01;31m[Kcoefficients_box[m[K(new pcl::ModelCoefficients);
+      |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/Object_Detection_Server.dir/build.make:63: CMakeFiles/Object_Detection_Server.dir/src/Object_Detection_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:268: CMakeFiles/Object_Detection_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

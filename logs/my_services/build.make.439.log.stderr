@@ -1,0 +1,11 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/smart_pickplace_server.cpp:[m[K In constructor ‘[01m[KPickPlaceAction_Server::PickPlaceAction_Server(std::string)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/smart_pickplace_server.cpp:81:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope; did you mean ‘[01m[Knh_[m[K’?
+   81 |     service_client = [01;31m[Knh[m[K.serviceClient<my_services::PoseFinderService>("pose_finder_service");
+      |                      [01;31m[K^~[m[K
+      |                      [32m[Knh_[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/smart_pickplace_server.cpp:81:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   81 |     service_client = nh.serviceClient<my_services::PoseFinderService[01;31m[K>[m[K("pose_finder_service");
+      |                                                                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/smart_pickplace_server.dir/build.make:63: CMakeFiles/smart_pickplace_server.dir/src/smart_pickplace_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:306: CMakeFiles/smart_pickplace_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

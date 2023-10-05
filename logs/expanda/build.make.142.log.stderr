@@ -1,0 +1,10 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:276:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_msgs::GripperCommandGoal[m[K’ {aka ‘[01m[Kstruct control_msgs::GripperCommandGoal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  276 |   goal.[01;31m[Kposition[m[K = 0.02;
+      |        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:277:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_msgs::GripperCommandGoal[m[K’ {aka ‘[01m[Kstruct control_msgs::GripperCommandGoal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmax_effort[m[K’
+  277 |   goal.[01;31m[Kmax_effort[m[K = 100;
+      |        [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pick_2.dir/build.make:63: CMakeFiles/pick_2.dir/src/pick_2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2052: CMakeFiles/pick_2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

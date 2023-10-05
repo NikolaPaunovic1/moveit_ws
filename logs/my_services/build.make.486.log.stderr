@@ -1,0 +1,7 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/retrigger_pick_place.cpp:[m[K In member function ‘[01m[Kvoid PickPlaceAction_Server::executeCB(const PickPlace2GoalConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/retrigger_pick_place.cpp:451:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+  451 |                     ros[01;31m[K.[m[KDuration(0.5).sleep();
+      |                        [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/retrigger_pick_place.dir/build.make:63: CMakeFiles/retrigger_pick_place.dir/src/retrigger_pick_place.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:308: CMakeFiles/retrigger_pick_place.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

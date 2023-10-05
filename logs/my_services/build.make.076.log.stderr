@@ -1,0 +1,10 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:[m[K In constructor ‘[01m[KObjectDetectionService::ObjectDetectionService(ros::NodeHandle&, moveit::planning_interface::PlanningSceneInterface&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:29:64:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid ObjectDetectionService::image_cb(const ImageConstPtr&)[m[K’
+   29 |         image_sub = it.subscribe("/camera/color/image_raw", 1, [01;31m[Kimage_cb[m[K);
+      |                                                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:42:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   42 |   void [01;36m[Kimage_cb[m[K(const sensor_msgs::ImageConstPtr& msg)
+      |        [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/Object_Detection_Server.dir/build.make:63: CMakeFiles/Object_Detection_Server.dir/src/Object_Detection_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:268: CMakeFiles/Object_Detection_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

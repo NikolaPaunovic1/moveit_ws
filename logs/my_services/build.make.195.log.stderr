@@ -1,0 +1,42 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:23:51:[m[K [01;31m[Kerror: [m[K‘[01m[KPtr[m[K’ in ‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ does not name a type
+   23 |   moveit::planning_interface::MoveGroupInterface::[01;31m[KPtr[m[K move_group_interface;
+      |                                                   [01;31m[K^~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:24:51:[m[K [01;31m[Kerror: [m[K‘[01m[KPtr[m[K’ in ‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ does not name a type
+   24 |   moveit::planning_interface::MoveGroupInterface::[01;31m[KPtr[m[K gripper_group;
+      |                                                   [01;31m[K^~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:[m[K In constructor ‘[01m[KPickPlaceAction_Server::PickPlaceAction_Server(std::string)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+   44 |     [01;31m[Kmove_group_interface[m[K.reset(new moveit::planning_interface::MoveGroupInterface("panda_arm"));
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_group[m[K’ was not declared in this scope
+   45 |     [01;31m[Kgripper_group[m[K.reset(new moveit::planning_interface::MoveGroupInterface("panda_hand"));
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:[m[K In member function ‘[01m[Kvoid PickPlaceAction_Server::executeCB(const PickPlaceGoalConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:101:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+  101 |     moveit::core::RobotStatePtr current_state = [01;31m[Kmove_group_interface[m[K.getCurrentState();
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:106:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_group[m[K’ was not declared in this scope
+  106 |     [01;31m[Kgripper_group[m[K.setStartState(*gripper_group.getCurrentState());
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:119:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ktau[m[K’ was not declared in this scope; did you mean ‘[01m[Ktan[m[K’?
+  119 |     orientation.setRPY(0, -[01;31m[Ktau[m[K / 2, tau *3/ 8);
+      |                            [01;31m[K^~~[m[K
+      |                            [32m[Ktan[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:121:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_object_pose[m[K’ was not declared in this scope
+  121 |     target_pose1.position = [01;31m[Kmy_object_pose[m[K.position;
+      |                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:132:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool success[m[K’
+  132 |     bool [01;31m[Ksuccess[m[K = (move_group_interface.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+      |          [01;31m[K^~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:63:8:[m[K [01;36m[Knote: [m[K‘[01m[Kbool success[m[K’ previously declared here
+   63 |   bool [01;36m[Ksuccess[m[K = true;
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:158:31:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kfranka_gripper::GraspGoal goal[m[K’ shadows a parameter
+  158 |     franka_gripper::GraspGoal [01;31m[Kgoal[m[K;
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:169:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kattached_object[m[K’ was not declared in this scope
+  169 |     planning_scene_interface.applyAttachedCollisionObject([01;31m[Kattached_object[m[K);
+      |                                                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/PickPlace_Action_Server.dir/build.make:63: CMakeFiles/PickPlace_Action_Server.dir/src/PickPlace_Action_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/PickPlace_Action_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

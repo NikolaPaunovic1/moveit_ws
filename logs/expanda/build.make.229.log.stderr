@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/cloud_merger.dir/src/cloud_merger.cpp.o: in function `PointCloudMerger::mergeClouds()':
+cloud_merger.cpp:(.text._ZN16PointCloudMerger11mergeCloudsEv[_ZN16PointCloudMerger11mergeCloudsEv]+0x334): undefined reference to `void tf2::doTransform<sensor_msgs::PointCloud2_<std::allocator<void> > >(sensor_msgs::PointCloud2_<std::allocator<void> > const&, sensor_msgs::PointCloud2_<std::allocator<void> >&, geometry_msgs::TransformStamped_<std::allocator<void> > const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cloud_merger.dir/build.make:289: /home/nikola/ws_moveit/devel/.private/expanda/lib/expanda/cloud_merger] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3012: CMakeFiles/cloud_merger.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

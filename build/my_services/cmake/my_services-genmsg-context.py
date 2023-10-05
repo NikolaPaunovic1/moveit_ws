@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceAction.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionGoal.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionResult.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionFeedback.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceGoal.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceResult.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceFeedback.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Action.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionGoal.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionResult.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionFeedback.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Goal.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Result.msg;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Feedback.msg"
+services_str = "/home/nikola/ws_moveit/src/my_services/srv/ObjectPositionService.srv;/home/nikola/ws_moveit/src/my_services/srv/PoseFinderService.srv"
+pkg_name = "my_services"
+dependencies_str = "actionlib_msgs;geometry_msgs;sensor_msgs;std_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "my_services;/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg;actionlib_msgs;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;geometry_msgs;/opt/ros/noetic/share/geometry_msgs/cmake/../msg;sensor_msgs;/opt/ros/noetic/share/sensor_msgs/cmake/../msg;std_msgs;/opt/ros/noetic/share/std_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/usr/bin/python3"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

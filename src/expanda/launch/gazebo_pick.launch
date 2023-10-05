@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="gazebo_pick" pkg="expanda" type="gazebo_pick" respawn="false" output="screen">
+  </node>
+
+</launch>
+

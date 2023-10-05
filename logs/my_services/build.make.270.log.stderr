@@ -1,0 +1,18 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:[m[K In member function ‘[01m[Kvoid PickPlaceAction_Server::executeCB(const PickPlaceGoalConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:372:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K-Wdeprecated-declarations[m[K]
+  372 |       moveit::planning_interface::MoveItErrorCode [01;35m[Kresult_m[m[K;
+      |                                                   [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:4[m[K:
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:64:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   64 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:400:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPickPlaceAction_Server::return_backto_default()[m[K’
+  400 |                   return_backto_default([01;31m[K)[m[K;
+      |                                         [01;31m[K^[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:64:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid PickPlaceAction_Server::return_backto_default(bool)[m[K’
+   64 |   void [01;36m[Kreturn_backto_default[m[K(bool end_reached){
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:64:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/PickPlace_Action_Server.dir/build.make:63: CMakeFiles/PickPlace_Action_Server.dir/src/PickPlace_Action_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/PickPlace_Action_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

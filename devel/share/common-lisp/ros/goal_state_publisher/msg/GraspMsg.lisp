@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/goal_state_publisher/share/common-lisp/ros/goal_state_publisher/msg/GraspMsg.lisp

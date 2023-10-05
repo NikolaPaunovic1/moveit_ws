@@ -1,0 +1,7 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/eight_mesh_spawner.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/eight_mesh_spawner.cpp:255:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcube_pose[m[K’ was not declared in this scope
+  255 |     marker.tf1 = poseToStampedTransform([01;31m[Kcube_pose[m[K, "world", marker.aruco_frame_long);
+      |                                         [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/eight_mesh_spawner.dir/build.make:63: CMakeFiles/eight_mesh_spawner.dir/src/eight_mesh_spawner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/eight_mesh_spawner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

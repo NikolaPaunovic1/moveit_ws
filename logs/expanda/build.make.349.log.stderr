@@ -1,0 +1,19 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multiobject_multicam_track.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multiobject_multicam_track.cpp:238:14:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix3x3[m[K’ is not a member of ‘[01m[Ktf2[m[K’; did you mean ‘[01m[Ktf::Matrix3x3[m[K’?
+  238 |         tf2::[01;31m[KMatrix3x3[m[K rot_mat(quat);
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/tf/LinearMath/Transform.h:21[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf/transform_datatypes.h:41[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf/time_cache.h:38[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf/tf.h:44[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf/transform_listener.h:38[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/multiobject_multicam_track.cpp:11[m[K:
+[01m[K/opt/ros/noetic/include/tf/LinearMath/Matrix3x3.h:33:7:[m[K [01;36m[Knote: [m[K‘[01m[Ktf::Matrix3x3[m[K’ declared here
+   33 | class [01;36m[KMatrix3x3[m[K {
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multiobject_multicam_track.cpp:244:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krot_mat[m[K’ was not declared in this scope
+  244 |         offset = [01;31m[Krot_mat[m[K * offset;
+      |                  [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/multiobject_multicam_track.dir/build.make:63: CMakeFiles/multiobject_multicam_track.dir/src/multiobject_multicam_track.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2775: CMakeFiles/multiobject_multicam_track.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

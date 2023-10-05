@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find zed_ar_track_alvar_example)/rviz/zed_aruco.rviz" output="screen"/>
+
+    <include file="$(find zed_wrapper)/launch/zed2i.launch"/>
+    <include file="$(find aruco_ros)/launch/single.launch"/>
+
+</launch>

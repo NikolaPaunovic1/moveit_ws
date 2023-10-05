@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<launch>
+
+<!-- x and y are the position of the human pose tracking camera in the worl frame -->
+<!-- a cone with radius 200mm and height 1000mm will be spawned - stl file can be adjusted or swapped out -->
+  <arg name="x" default=""/>
+  <arg name="y" default=""/>
+  <arg name="robot_ip" default="192.168.1.200"/>
+
+
+  <include file="$(find expanda)/launch/surrounding.launch">
+      <arg name="x" value="$(arg x)" />
+      <arg name="y" value="$(arg y)" />
+  </include>
+  
+  <include file="$(find panda_moveit_config)/launch/franka_control.launch">
+      <arg name="robot_ip" value="$(arg robot_ip)" />
+  </include>
+
+  <!-- <node pkg="expanda" type="multimesh_spawner" name="object_spawner" output="screen"/> -->
+  <node pkg="expanda" type="eight_mesh_spawner" name="object_spawner" output="screen"/>
+
+  <node pkg="my_services" type="Pose_Finder_Server" name="pose_finder" output="screen"/>
+
+  <node pkg="my_services" type="smart_pickplace_server" name="Pickplace_Server" output="screen" launch-prefix="gnome-terminal --command"/>
+
+  <!-- <node pkg="expanda" type="triplet_detection" name="triplet_detector" output="screen"/> -->
+
+
+</launch>

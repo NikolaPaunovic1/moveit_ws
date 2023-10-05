@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nikola/ws_moveit/src/expanda/cmake-build-debug/devel/setup.sh

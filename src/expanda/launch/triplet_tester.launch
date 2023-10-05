@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+
+<!-- x and y are the position of the human pose tracking camera in the worl frame -->
+<!-- a cone with radius 200mm and height 1000mm will be spawned - stl file can be adjusted or swapped out -->
+  <arg name="x" default=""/>
+  <arg name="y" default=""/>
+
+  <include file="$(find expanda)/launch/surrounding.launch">
+      <arg name="x" value="$(arg x)" />
+      <arg name="y" value="$(arg y)" />
+  </include>
+  
+  <include file="$(find panda_moveit_config)/launch/demo.launch"/>
+
+  <!-- <node pkg="expanda" type="multimesh_spawner" name="object_spawner" output="screen"/> -->
+
+  <node pkg="expanda" type="eight_mesh_spawner" name="object_spawner" output="screen"/>
+
+  <node pkg="expanda" type="triplet_detection" name="triplet_detector" output="screen"/>
+
+
+</launch>

@@ -1,0 +1,22 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/eight_mesh_spawner.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/eight_mesh_spawner.cpp:255:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcube_pose[m[K’ was not declared in this scope
+  255 |     marker.tf1 = poseToStampedTransform([01;31m[Kcube_pose[m[K, "world", marker.aruco_frame_long);
+      |                                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/eight_mesh_spawner.cpp:268:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcube[m[K’ was not declared in this scope; did you mean ‘[01m[KEigen::cube[m[K’?
+  268 | [01;31m[Kcube[m[K.primitives.clear(); //Clear mesh required for MOVE operation (Only to avoid a warning)
+      | [01;31m[K^~~~[m[K
+      | [32m[KEigen::cube[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:533[m[K,
+                 from [01m[K/opt/ros/noetic/include/eigen_stl_containers/eigen_stl_vector_container.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/eigen_stl_containers/eigen_stl_containers.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/geometric_shapes/include/geometric_shapes/mesh_operations.h:41[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/eight_mesh_spawner.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:83:3:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::cube[m[K’ declared here
+   83 |   [01;36m[KEIGEN_ARRAY_DECLARE_GLOBAL_UNARY[m[K(cube,scalar_cube_op,cube (power 3),\sa Eigen::pow DOXCOMMA ArrayBase::cube)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/eight_mesh_spawner.cpp:270:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kplate[m[K’ was not declared in this scope
+  270 | [01;31m[Kplate[m[K.primitives.clear(); //Clear mesh required for MOVE operation (Only to avoid a warning)
+      | [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/eight_mesh_spawner.dir/build.make:63: CMakeFiles/eight_mesh_spawner.dir/src/eight_mesh_spawner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/eight_mesh_spawner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

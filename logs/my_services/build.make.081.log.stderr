@@ -1,0 +1,8 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:[m[K In member function ‘[01m[Kbool ObjectDetectionService::handleRequest(my_services::ObjectPositionService::Request&, my_services::ObjectPositionService::Response&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:178:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf_buffer_[m[K’?
+  178 |         geometry_msgs::PoseStamped output_pose_stamped = [01;31m[Ktf_buffer[m[K.transform(input_pose_stamped, "panda_link0", ros::Duration(1));
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+      |                                                          [32m[Ktf_buffer_[m[K
+make[2]: *** [CMakeFiles/Object_Detection_Server.dir/build.make:63: CMakeFiles/Object_Detection_Server.dir/src/Object_Detection_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:268: CMakeFiles/Object_Detection_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

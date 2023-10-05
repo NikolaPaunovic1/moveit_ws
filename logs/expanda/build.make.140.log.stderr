@@ -1,0 +1,14 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:281:19:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcontrol_msgs::GripperCommand[m[K’ {aka ‘[01m[Kcontrol_msgs::GripperCommand_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Goal&[m[K’ {aka ‘[01m[Kconst control_msgs::GripperCommandGoal_<std::allocator<void> >&[m[K’}
+  281 |   client.sendGoal([01;31m[Kgoal[m[K);
+      |                   [01;31m[K^~~~[m[K
+      |                   [01;31m[K|[m[K
+      |                   [01;31m[Kcontrol_msgs::GripperCommand {aka control_msgs::GripperCommand_<std::allocator<void> >}[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:54[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/actionlib/client/simple_action_client.h:317:60:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid actionlib::SimpleActionClient<ActionSpec>::sendGoal(const Goal&, actionlib::SimpleActionClient<ActionSpec>::SimpleDoneCallback, actionlib::SimpleActionClient<ActionSpec>::SimpleActiveCallback, actionlib::SimpleActionClient<ActionSpec>::SimpleFeedbackCallback) [with ActionSpec = control_msgs::GripperCommandAction_<std::allocator<void> >; actionlib::SimpleActionClient<ActionSpec>::Goal = control_msgs::GripperCommandGoal_<std::allocator<void> >; actionlib::SimpleActionClient<ActionSpec>::SimpleDoneCallback = boost::function<void(const actionlib::SimpleClientGoalState&, const boost::shared_ptr<const control_msgs::GripperCommandResult_<std::allocator<void> > >&)>; typename ActionSpec::_action_result_type::_result_type = control_msgs::GripperCommandResult_<std::allocator<void> >; actionlib::SimpleActionClient<ActionSpec>::SimpleActiveCallback = boost::function<void()>; actionlib::SimpleActionClient<ActionSpec>::SimpleFeedbackCallback = boost::function<void(const boost::shared_ptr<const control_msgs::GripperCommandFeedback_<std::allocator<void> > >&)>; typename ActionSpec::_action_feedback_type::_feedback_type = control_msgs::GripperCommandFeedback_<std::allocator<void> >][m[K’
+  317 | void SimpleActionClient<ActionSpec>::sendGoal([01;36m[Kconst Goal & goal[m[K,
+      |                                               [01;36m[K~~~~~~~~~~~~~^~~~[m[K
+make[2]: *** [CMakeFiles/pick_2.dir/build.make:63: CMakeFiles/pick_2.dir/src/pick_2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2052: CMakeFiles/pick_2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

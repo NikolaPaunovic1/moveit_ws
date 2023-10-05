@@ -1,0 +1,38 @@
+
+(cl:in-package :asdf)
+
+(defsystem "my_services-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :actionlib_msgs-msg
+               :geometry_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "PickPlace2Action" :depends-on ("_package_PickPlace2Action"))
+    (:file "_package_PickPlace2Action" :depends-on ("_package"))
+    (:file "PickPlace2ActionFeedback" :depends-on ("_package_PickPlace2ActionFeedback"))
+    (:file "_package_PickPlace2ActionFeedback" :depends-on ("_package"))
+    (:file "PickPlace2ActionGoal" :depends-on ("_package_PickPlace2ActionGoal"))
+    (:file "_package_PickPlace2ActionGoal" :depends-on ("_package"))
+    (:file "PickPlace2ActionResult" :depends-on ("_package_PickPlace2ActionResult"))
+    (:file "_package_PickPlace2ActionResult" :depends-on ("_package"))
+    (:file "PickPlace2Feedback" :depends-on ("_package_PickPlace2Feedback"))
+    (:file "_package_PickPlace2Feedback" :depends-on ("_package"))
+    (:file "PickPlace2Goal" :depends-on ("_package_PickPlace2Goal"))
+    (:file "_package_PickPlace2Goal" :depends-on ("_package"))
+    (:file "PickPlace2Result" :depends-on ("_package_PickPlace2Result"))
+    (:file "_package_PickPlace2Result" :depends-on ("_package"))
+    (:file "PickPlaceAction" :depends-on ("_package_PickPlaceAction"))
+    (:file "_package_PickPlaceAction" :depends-on ("_package"))
+    (:file "PickPlaceActionFeedback" :depends-on ("_package_PickPlaceActionFeedback"))
+    (:file "_package_PickPlaceActionFeedback" :depends-on ("_package"))
+    (:file "PickPlaceActionGoal" :depends-on ("_package_PickPlaceActionGoal"))
+    (:file "_package_PickPlaceActionGoal" :depends-on ("_package"))
+    (:file "PickPlaceActionResult" :depends-on ("_package_PickPlaceActionResult"))
+    (:file "_package_PickPlaceActionResult" :depends-on ("_package"))
+    (:file "PickPlaceFeedback" :depends-on ("_package_PickPlaceFeedback"))
+    (:file "_package_PickPlaceFeedback" :depends-on ("_package"))
+    (:file "PickPlaceGoal" :depends-on ("_package_PickPlaceGoal"))
+    (:file "_package_PickPlaceGoal" :depends-on ("_package"))
+    (:file "PickPlaceResult" :depends-on ("_package_PickPlaceResult"))
+    (:file "_package_PickPlaceResult" :depends-on ("_package"))
+  ))

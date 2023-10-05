@@ -1,0 +1,2 @@
+set(my_services_MESSAGE_FILES "msg/PickPlaceAction.msg;msg/PickPlaceActionGoal.msg;msg/PickPlaceActionResult.msg;msg/PickPlaceActionFeedback.msg;msg/PickPlaceGoal.msg;msg/PickPlaceResult.msg;msg/PickPlaceFeedback.msg;msg/PickPlace2Action.msg;msg/PickPlace2ActionGoal.msg;msg/PickPlace2ActionResult.msg;msg/PickPlace2ActionFeedback.msg;msg/PickPlace2Goal.msg;msg/PickPlace2Result.msg;msg/PickPlace2Feedback.msg")
+set(my_services_SERVICE_FILES "srv/ObjectPositionService.srv;srv/PoseFinderService.srv")

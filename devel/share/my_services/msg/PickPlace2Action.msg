@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Action.msg

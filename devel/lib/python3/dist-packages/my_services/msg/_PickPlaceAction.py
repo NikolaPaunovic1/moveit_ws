@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/my_services/lib/python3/dist-packages/my_services/msg/_PickPlaceAction.py

@@ -1,0 +1,25 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:69:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::CollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kbox_pose[m[K’
+   69 |     bin.[01;31m[Kbox_pose[m[K.position.x = t_bin1.getOrigin().x(); //set pose
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:70:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::CollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kbox_pose[m[K’
+   70 |     bin.[01;31m[Kbox_pose[m[K.position.y = t_bin1.getOrigin().y();
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:71:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::CollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kbox_pose[m[K’
+   71 |     bin.[01;31m[Kbox_pose[m[K.position.z = t_bin1.getOrigin().z();
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::CollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kbox_pose[m[K’
+   72 |     bin.[01;31m[Kbox_pose[m[K.orientation.w= t_bin1.getRotation().w();
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::CollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kbox_pose[m[K’
+   73 |     bin.[01;31m[Kbox_pose[m[K.orientation.x= t_bin1.getRotation().x();
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::CollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kbox_pose[m[K’
+   74 |     bin.[01;31m[Kbox_pose[m[K.orientation.y= t_bin1.getRotation().y();
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:75:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::CollisionObject[m[K’ {aka ‘[01m[Kstruct moveit_msgs::CollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kbox_pose[m[K’
+   75 |     bin.[01;31m[Kbox_pose[m[K.orientation.z= t_bin1.getRotation().z();
+      |         [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/track_object.dir/build.make:63: CMakeFiles/track_object.dir/src/track_object.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3986: CMakeFiles/track_object.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,23 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/object_detection_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/object_detection_demo.cpp:202:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kobject_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Kobject3_pose[m[K’?
+  202 |     move_group_interface.setPoseTarget([01;31m[Kobject_pose[m[K);
+      |                                        [01;31m[K^~~~~~~~~~~[m[K
+      |                                        [32m[Kobject3_pose[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/object_detection_demo.cpp:222:64:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kactionlib::SimpleActionClient<franka_gripper::GraspAction_<std::allocator<void> > > client[m[K’
+  222 |     actionlib::SimpleActionClient<franka_gripper::GraspAction> [01;31m[Kclient[m[K("/franka_gripper/grasp", true);
+      |                                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/object_detection_demo.cpp:36:24:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kros::ServiceClient client[m[K’
+   36 |     ros::ServiceClient [01;36m[Kclient[m[K = nh.serviceClient<my_services::ObjectPositionService>("object_position_service");
+      |                        [01;36m[K^~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/object_detection_demo.cpp:224:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::ServiceClient[m[K’ has no member named ‘[01m[KwaitForServer[m[K’
+  224 |     client.[01;31m[KwaitForServer[m[K();
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/object_detection_demo.cpp:262:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::ServiceClient[m[K’ has no member named ‘[01m[KsendGoal[m[K’
+  262 |     client.[01;31m[KsendGoal[m[K(goal, &doneCallback);
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/object_detection_demo.cpp:294:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::ServiceClient[m[K’ has no member named ‘[01m[KcancelGoal[m[K’
+  294 |     client.[01;31m[KcancelGoal[m[K();
+      |            [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/object_detection_demo.dir/build.make:63: CMakeFiles/object_detection_demo.dir/src/object_detection_demo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/object_detection_demo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

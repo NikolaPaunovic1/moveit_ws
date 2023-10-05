@@ -1,0 +1,150 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:1[m[K:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:[m[K In member function ‘[01m[Kvoid PickPlaceAction_Server::executeCB(const PickPlaceGoalConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:97:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<geometry_msgs::Pose_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   97 |         ROS_INFO([01;35m[K"The length of the vector primitive poses is: %d"[m[K, [32m[Kmy_object.primitive_poses.size()[m[K);
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                   [32m[K|[m[K
+      |                                                                                                   [32m[Kstd::vector<geometry_msgs::Pose_<std::allocator<void> > >::size_type {aka long unsigned int}[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:97:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   97 |         [01;36m[KROS_INFO[m[K("The length of the vector primitive poses is: %d", my_object.primitive_poses.size());
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:97:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   97 |         ROS_INFO("The length of the vector primitive poses is: [01;36m[K%d[m[K", my_object.primitive_poses.size());
+      |                                                                [01;36m[K~^[m[K
+      |                                                                 [01;36m[K|[m[K
+      |                                                                 [01;36m[Kint[m[K
+      |                                                                [32m[K%ld[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:157:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoMsg(tf2::Matrix3x3&)[m[K’
+  157 |     target_pose1.orientation = tf2::toMsg(rot_mat[01;31m[K)[m[K;
+      |                                                  [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/tf2_ros/buffer_interface.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf2_ros/buffer.h:35[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:57[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:4[m[K:
+[01m[K/opt/ros/noetic/include/tf2/convert.h:94:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class A, class B> B tf2::toMsg(const A&)[m[K’
+   94 |   B [01;36m[KtoMsg[m[K(const A& a);
+      |     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2/convert.h:94:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:157:50:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KB[m[K’
+  157 |     target_pose1.orientation = tf2::toMsg(rot_mat[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:6[m[K:
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:82:24:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::Vector3 tf2::toMsg(const tf2::Vector3&)[m[K’
+   82 | geometry_msgs::Vector3 [01;36m[KtoMsg[m[K(const tf2::Vector3& in)
+      |                        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:82:50:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst tf2::Vector3&[m[K’
+   82 | geometry_msgs::Vector3 toMsg([01;36m[Kconst tf2::Vector3& in[m[K)
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:134:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::Vector3Stamped tf2::toMsg(const Vector3Stamped&)[m[K’
+  134 | geometry_msgs::Vector3Stamped [01;36m[KtoMsg[m[K(const geometry_msgs::Vector3Stamped& in)
+      |                               [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:134:74:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst Vector3Stamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::Vector3Stamped_<std::allocator<void> >&[m[K’}
+  134 | geometry_msgs::Vector3Stamped toMsg([01;36m[Kconst geometry_msgs::Vector3Stamped& in[m[K)
+      |                                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:156:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::Vector3Stamped tf2::toMsg(const tf2::Stamped<tf2::Vector3>&)[m[K’
+  156 | geometry_msgs::Vector3Stamped [01;36m[KtoMsg[m[K(const tf2::Stamped<tf2::Vector3>& in)
+      |                               [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:156:71:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst tf2::Stamped<tf2::Vector3>&[m[K’
+  156 | geometry_msgs::Vector3Stamped toMsg([01;36m[Kconst tf2::Stamped<tf2::Vector3>& in[m[K)
+      |                                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:191:23:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::Point& tf2::toMsg(const tf2::Vector3&, geometry_msgs::Point&)[m[K’
+  191 | geometry_msgs::Point& [01;36m[KtoMsg[m[K(const tf2::Vector3& in, geometry_msgs::Point& out)
+      |                       [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:191:23:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:241:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::PointStamped tf2::toMsg(const PointStamped&)[m[K’
+  241 | geometry_msgs::PointStamped [01;36m[KtoMsg[m[K(const geometry_msgs::PointStamped& in)
+      |                             [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:241:70:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst PointStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::PointStamped_<std::allocator<void> >&[m[K’}
+  241 | geometry_msgs::PointStamped toMsg([01;36m[Kconst geometry_msgs::PointStamped& in[m[K)
+      |                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:263:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::PointStamped tf2::toMsg(const tf2::Stamped<tf2::Vector3>&, geometry_msgs::PointStamped&)[m[K’
+  263 | geometry_msgs::PointStamped [01;36m[KtoMsg[m[K(const tf2::Stamped<tf2::Vector3>& in, geometry_msgs::PointStamped & out)
+      |                             [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:263:29:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:297:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::Quaternion tf2::toMsg(const tf2::Quaternion&)[m[K’
+  297 | geometry_msgs::Quaternion [01;36m[KtoMsg[m[K(const tf2::Quaternion& in)
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:297:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst tf2::Quaternion&[m[K’
+  297 | geometry_msgs::Quaternion toMsg([01;36m[Kconst tf2::Quaternion& in[m[K)
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:350:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::QuaternionStamped tf2::toMsg(const QuaternionStamped&)[m[K’
+  350 | geometry_msgs::QuaternionStamped [01;36m[KtoMsg[m[K(const geometry_msgs::QuaternionStamped& in)
+      |                                  [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:350:80:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst QuaternionStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::QuaternionStamped_<std::allocator<void> >&[m[K’}
+  350 | geometry_msgs::QuaternionStamped toMsg([01;36m[Kconst geometry_msgs::QuaternionStamped& in[m[K)
+      |                                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:372:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::QuaternionStamped tf2::toMsg(const tf2::Stamped<tf2::Quaternion>&)[m[K’
+  372 | geometry_msgs::QuaternionStamped [01;36m[KtoMsg[m[K(const tf2::Stamped<tf2::Quaternion>& in)
+      |                                  [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:372:77:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst tf2::Stamped<tf2::Quaternion>&[m[K’
+  372 | geometry_msgs::QuaternionStamped toMsg([01;36m[Kconst tf2::Stamped<tf2::Quaternion>& in[m[K)
+      |                                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:433:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::Pose& tf2::toMsg(const tf2::Transform&, geometry_msgs::Pose&)[m[K’
+  433 | geometry_msgs::Pose& [01;36m[KtoMsg[m[K(const tf2::Transform& in, geometry_msgs::Pose& out)
+      |                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:433:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:482:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::PoseStamped tf2::toMsg(const PoseStamped&)[m[K’
+  482 | geometry_msgs::PoseStamped [01;36m[KtoMsg[m[K(const geometry_msgs::PoseStamped& in)
+      |                            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:482:68:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst PoseStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::PoseStamped_<std::allocator<void> >&[m[K’}
+  482 | geometry_msgs::PoseStamped toMsg([01;36m[Kconst geometry_msgs::PoseStamped& in[m[K)
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:504:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::PoseStamped tf2::toMsg(const tf2::Stamped<tf2::Transform>&, geometry_msgs::PoseStamped&)[m[K’
+  504 | geometry_msgs::PoseStamped [01;36m[KtoMsg[m[K(const tf2::Stamped<tf2::Transform>& in, geometry_msgs::PoseStamped & out)
+      |                            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:504:28:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:556:42:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::PoseWithCovarianceStamped tf2::toMsg(const PoseWithCovarianceStamped&)[m[K’
+  556 | geometry_msgs::PoseWithCovarianceStamped [01;36m[KtoMsg[m[K(const geometry_msgs::PoseWithCovarianceStamped& in)
+      |                                          [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:556:96:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst PoseWithCovarianceStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> >&[m[K’}
+  556 | geometry_msgs::PoseWithCovarianceStamped toMsg([01;36m[Kconst geometry_msgs::PoseWithCovarianceStamped& in[m[K)
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:578:42:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::PoseWithCovarianceStamped tf2::toMsg(const tf2::Stamped<tf2::Transform>&, geometry_msgs::PoseWithCovarianceStamped&)[m[K’
+  578 | geometry_msgs::PoseWithCovarianceStamped [01;36m[KtoMsg[m[K(const tf2::Stamped<tf2::Transform>& in, geometry_msgs::PoseWithCovarianceStamped & out)
+      |                                          [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:578:42:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+In file included from [01m[K/home/nikola/ws_moveit/src/my_services/src/PickPlace_Action_Server.cpp:6[m[K:
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:612:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::Transform tf2::toMsg(const tf2::Transform&)[m[K’
+  612 | geometry_msgs::Transform [01;36m[KtoMsg[m[K(const tf2::Transform& in)
+      |                          [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:612:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst tf2::Transform&[m[K’
+  612 | geometry_msgs::Transform toMsg([01;36m[Kconst tf2::Transform& in[m[K)
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:666:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::TransformStamped tf2::toMsg(const TransformStamped&)[m[K’
+  666 | geometry_msgs::TransformStamped [01;36m[KtoMsg[m[K(const geometry_msgs::TransformStamped& in)
+      |                                 [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:666:78:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst TransformStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::TransformStamped_<std::allocator<void> >&[m[K’}
+  666 | geometry_msgs::TransformStamped toMsg([01;36m[Kconst geometry_msgs::TransformStamped& in[m[K)
+      |                                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:687:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::TransformStamped tf2::toMsg(const tf2::Stamped<tf2::Transform>&)[m[K’
+  687 | geometry_msgs::TransformStamped [01;36m[KtoMsg[m[K(const tf2::Stamped<tf2::Transform>& in)
+      |                                 [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:687:75:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst tf2::Stamped<tf2::Transform>&[m[K’
+  687 | geometry_msgs::TransformStamped toMsg([01;36m[Kconst tf2::Stamped<tf2::Transform>& in[m[K)
+      |                                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:999:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::WrenchStamped tf2::toMsg(const WrenchStamped&)[m[K’
+  999 | geometry_msgs::WrenchStamped [01;36m[KtoMsg[m[K(const geometry_msgs::WrenchStamped& in)
+      |                              [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:999:72:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Matrix3x3[m[K’ to ‘[01m[Kconst WrenchStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::WrenchStamped_<std::allocator<void> >&[m[K’}
+  999 | geometry_msgs::WrenchStamped toMsg([01;36m[Kconst geometry_msgs::WrenchStamped& in[m[K)
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:1012:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::WrenchStamped tf2::toMsg(const tf2::Stamped<std::array<tf2::Vector3, 2> >&, geometry_msgs::WrenchStamped&)[m[K’
+ 1012 | geometry_msgs::WrenchStamped [01;36m[KtoMsg[m[K(const tf2::Stamped<std::array<tf2::Vector3, 2>>& in, geometry_msgs::WrenchStamped & out)
+      |                              [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:1012:30:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+make[2]: *** [CMakeFiles/PickPlace_Action_Server.dir/build.make:63: CMakeFiles/PickPlace_Action_Server.dir/src/PickPlace_Action_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/PickPlace_Action_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

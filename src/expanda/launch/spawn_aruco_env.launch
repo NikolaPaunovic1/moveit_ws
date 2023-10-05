@@ -1,0 +1,10 @@
+<launch>
+
+  <node name="spawn_pick_place_env" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" 
+  args="-sdf -file /home/nikola/models_gazebo/pick_place_nowall.sdf -model pick_place_nowall" />
+  <node name="spawn_marked_stone" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+  args="-sdf -file /home/nikola/.gazebo/models/marked_stone/model.sdf -model marked_stone"/>
+  <node name="spawn_marked_stone_2" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+  args="-sdf -file /home/nikola/.gazebo/models/marked_stone_2/model.sdf -model marked_stone_2"/>
+
+</launch>

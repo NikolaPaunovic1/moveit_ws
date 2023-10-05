@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/rviz_marker_tools/lib/pkgconfig/rviz_marker_tools.pc

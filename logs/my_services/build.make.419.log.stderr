@@ -1,0 +1,7 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_PickPlace_Server.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::Pose PickPlaceAction_Server::calculate_target_pose(const Pose&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_PickPlace_Server.cpp:119:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+  119 |       tf2::Transform T_place = T_goal * grasp_dictionary[([01;31m[Kgoal[m[K->id-1)].place_pose;
+      |                                                           [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/Object_PickPlace_Server.dir/build.make:63: CMakeFiles/Object_PickPlace_Server.dir/src/Object_PickPlace_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:294: CMakeFiles/Object_PickPlace_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

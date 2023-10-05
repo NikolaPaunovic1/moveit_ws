@@ -1,0 +1,7 @@
+[01m[K/home/nikola/ws_moveit/src/moveit_tutorials/doc/perception_pipeline/src/detect_and_add_cylinder_collision_object_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/moveit_tutorials/doc/perception_pipeline/src/detect_and_add_cylinder_collision_object_demo.cpp:368:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+  368 |   ros::Duration[01;31m[K.[m[Ksleep(1.0);}
+      |                [01;31m[K^[m[K
+make[2]: *** [doc/perception_pipeline/CMakeFiles/detect_and_add_cylinder_collision_object_demo.dir/build.make:63: doc/perception_pipeline/CMakeFiles/detect_and_add_cylinder_collision_object_demo.dir/src/detect_and_add_cylinder_collision_object_demo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4334: doc/perception_pipeline/CMakeFiles/detect_and_add_cylinder_collision_object_demo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

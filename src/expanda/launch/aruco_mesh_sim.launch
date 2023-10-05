@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find panda_moveit_config)/launch/demo_gazebo.launch"/>
+  <include file="$(find expanda)/launch/spawn_aruco_mesh_env.launch"/>
+  <!-- <include file="$(find expanda)/launch/spawn_aruco_env.launch"/> -->
+  <!-- cloud_merger_worldframe should not be used in simulation but on vision_ws - it does not work that well in simulation for some reason  -->
+  <!-- <node pkg="expanda" type="cloud_merger_worldframe" name="cloud_merger_worldframe" output="log"/> -->
+  <node pkg="expanda" type="cloud_merger" name="cloud_merger" output="log"/>
+  <!-- <include file="$(find vision_pkg)/launch/multiobject_multicam_detection.launch"/> -->
+
+  <include file="$(find vision_pkg)/launch/eight_aruco_two_zed.launch"/>
+
+  <!-- <node pkg="expanda" type="multimesh_spawner" name="object_spawner" output="screen"/> -->
+  <node pkg="expanda" type="eight_mesh_spawner" name="object_spawner" output="screen"/>
+  
+</launch>

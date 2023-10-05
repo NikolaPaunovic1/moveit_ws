@@ -1,0 +1,3 @@
+string shape_name
+---
+geometry_msgs/Pose object_pose

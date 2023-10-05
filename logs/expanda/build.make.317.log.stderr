@@ -1,0 +1,11 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multiobject_multicam_track.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multiobject_multicam_track.cpp:92:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<Marker>[m[K’ has no member named ‘[01m[Kobject[m[K’
+   92 |     markers.[01;31m[Kobject[m[K = bin;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/multiobject_multicam_track.cpp:206:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’ has no member named ‘[01m[KremoveCollisionObject[m[K’; did you mean ‘[01m[KremoveCollisionObjects[m[K’?
+  206 |                     planning_scene_interface.[01;31m[KremoveCollisionObject[m[K(markers[i].id); //delete objects from planning interface*/
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                              [32m[KremoveCollisionObjects[m[K
+make[2]: *** [CMakeFiles/multiobject_multicam_track.dir/build.make:63: CMakeFiles/multiobject_multicam_track.dir/src/multiobject_multicam_track.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2775: CMakeFiles/multiobject_multicam_track.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,9 @@
+  <launch>
+   <!-- Load the urdf into the parameter server. -->
+   <param name="my_sensor_description" command="$(find xacro)/xacro --inorder $(find franka_description)/robots/my_sensors/myrobot.urdf.xacro"/>
+    
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" >
+      <remap from="robot_description" to="my_sensor_description" />
+      <remap from="joint_states" to="sensor_joint_states" />
+    </node>
+  </launch>

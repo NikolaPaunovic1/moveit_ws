@@ -1,0 +1,56 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:223:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<double>[m[K’ has no member named ‘[01m[Kpushback[m[K’; did you mean ‘[01m[Kpush_back[m[K’?
+  223 |   tolerance_angle.[01;31m[Kpushback[m[K(tau/8);
+      |                   [01;31m[K^~~~~~~~[m[K
+      |                   [32m[Kpush_back[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:224:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<double>[m[K’ has no member named ‘[01m[Kpushback[m[K’; did you mean ‘[01m[Kpush_back[m[K’?
+  224 |   tolerance_angle.[01;31m[Kpushback[m[K(tau/8);
+      |                   [01;31m[K^~~~~~~~[m[K
+      |                   [32m[Kpush_back[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:225:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<double>[m[K’ has no member named ‘[01m[Kpushback[m[K’; did you mean ‘[01m[Kpush_back[m[K’?
+  225 |   tolerance_angle.[01;31m[Kpushback[m[K(tau);
+      |                   [01;31m[K^~~~~~~~[m[K
+      |                   [32m[Kpush_back[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:236:115:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KconstructGoalConstraints(const char [12], geometry_msgs::Pose&, std::vector<double>&, std::vector<double>&)[m[K’
+  236 |       kinematic_constraints::constructGoalConstraints("panda_link8", target_pose1, tolerance_pose, tolerance_angle[01;31m[K)[m[K;
+      |                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:15[m[K:
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:85:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_msgs::Constraints kinematic_constraints::constructGoalConstraints(const moveit::core::RobotState&, const moveit::core::JointModelGroup*, double, double)[m[K’
+   85 | moveit_msgs::Constraints [01;36m[KconstructGoalConstraints[m[K(const moveit::core::RobotState& state,
+      |                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:85:83:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [12][m[K’ to ‘[01m[Kconst moveit::core::RobotState&[m[K’
+   85 | moveit_msgs::Constraints constructGoalConstraints([01;36m[Kconst moveit::core::RobotState& state[m[K,
+      |                                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:100:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_msgs::Constraints kinematic_constraints::constructGoalConstraints(const moveit::core::RobotState&, const moveit::core::JointModelGroup*, double)[m[K’
+  100 | moveit_msgs::Constraints [01;36m[KconstructGoalConstraints[m[K(const moveit::core::RobotState& state,
+      |                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:100:26:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:119:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_msgs::Constraints kinematic_constraints::constructGoalConstraints(const string&, const PoseStamped&, double, double)[m[K’
+  119 | moveit_msgs::Constraints [01;36m[KconstructGoalConstraints[m[K(const std::string& link_name, const geometry_msgs::PoseStamped& pose,
+      |                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:119:115:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst PoseStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::PoseStamped_<std::allocator<void> >&[m[K’}
+  119 | moveit_msgs::Constraints constructGoalConstraints(const std::string& link_name, [01;36m[Kconst geometry_msgs::PoseStamped& pose[m[K,
+      |                                                                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:137:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_msgs::Constraints kinematic_constraints::constructGoalConstraints(const string&, const PoseStamped&, const std::vector<double>&, const std::vector<double>&)[m[K’
+  137 | moveit_msgs::Constraints [01;36m[KconstructGoalConstraints[m[K(const std::string& link_name, const geometry_msgs::PoseStamped& pose,
+      |                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:137:115:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst PoseStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::PoseStamped_<std::allocator<void> >&[m[K’}
+  137 | moveit_msgs::Constraints constructGoalConstraints(const std::string& link_name, [01;36m[Kconst geometry_msgs::PoseStamped& pose[m[K,
+      |                                                                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:152:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_msgs::Constraints kinematic_constraints::constructGoalConstraints(const string&, const QuaternionStamped&, double)[m[K’
+  152 | moveit_msgs::Constraints [01;36m[KconstructGoalConstraints[m[K(const std::string& link_name,
+      |                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:152:26:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:169:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_msgs::Constraints kinematic_constraints::constructGoalConstraints(const string&, const Point&, const PointStamped&, double)[m[K’
+  169 | moveit_msgs::Constraints [01;36m[KconstructGoalConstraints[m[K(const std::string& link_name,
+      |                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:170:79:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Point&[m[K’ {aka ‘[01m[Kconst geometry_msgs::Point_<std::allocator<void> >&[m[K’}
+  170 |                                                   [01;36m[Kconst geometry_msgs::Point& reference_point[m[K,
+      |                                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:186:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_msgs::Constraints kinematic_constraints::constructGoalConstraints(const string&, const PointStamped&, double)[m[K’
+  186 | moveit_msgs::Constraints [01;36m[KconstructGoalConstraints[m[K(const std::string& link_name,
+      |                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/utils.h:186:26:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+make[2]: *** [CMakeFiles/mg_interface.dir/build.make:63: CMakeFiles/mg_interface.dir/src/mg_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3442: CMakeFiles/mg_interface.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

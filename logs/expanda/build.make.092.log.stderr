@@ -1,0 +1,13 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_place.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_place.cpp:244:77:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’
+  244 |   visual_tools.publishGrasps(grasps, [01;31m[Kmove_group_interface.getEndEffectorLink()[m[K);
+      |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                                                             [01;31m[K|[m[K
+      |                                                                             [01;31m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/expanda/src/pick_place.cpp:11[m[K:
+[01m[K/home/nikola/ws_moveit/src/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:263:59:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishGrasps(const std::vector<moveit_msgs::Grasp_<std::allocator<void> > >&, const moveit::core::JointModelGroup*, double)[m[K’
+  263 |                      [01;36m[Kconst moveit::core::JointModelGroup* ee_jmg[m[K, double animate_speed = 0.1);
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+make[2]: *** [CMakeFiles/pick_place.dir/build.make:63: CMakeFiles/pick_place.dir/src/pick_place.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3066: CMakeFiles/pick_place.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

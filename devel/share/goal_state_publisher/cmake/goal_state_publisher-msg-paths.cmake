@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/goal_state_publisher/share/goal_state_publisher/cmake/goal_state_publisher-msg-paths.cmake

@@ -1,0 +1,24 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/urdf/model.h:50[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h:42[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/planning_scene_interface/include/moveit/planning_scene_interface/planning_scene_interface.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:5[m[K:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:70:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kt_bin1[m[K’
+   70 |         ROS_INFO("here is the pose %f" [01;31m[Kt_bin1[m[K.getOrigin().x());
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:70:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   70 |         [01;36m[KROS_INFO[m[K("here is the pose %f" t_bin1.getOrigin().x());
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:70:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K-Wformat=[m[K]
+   70 |         ROS_INFO([01;35m[K"here is the pose %f"[m[K t_bin1.getOrigin().x());
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:70:37:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   70 |         ROS_INFO("here is the pose [01;36m[K%f[m[K" t_bin1.getOrigin().x());
+      |                                    [01;36m[K~^[m[K
+      |                                     [01;36m[K|[m[K
+      |                                     [01;36m[Kdouble[m[K
+make[2]: *** [CMakeFiles/track_object.dir/build.make:63: CMakeFiles/track_object.dir/src/track_object.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3986: CMakeFiles/track_object.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

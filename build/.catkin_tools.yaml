@@ -1,0 +1,6 @@
+devel_space: /home/nikola/ws_moveit/devel
+install: false
+install_space: /home/nikola/ws_moveit/install
+profile: default
+source_space: /home/nikola/ws_moveit/src
+workspace: /home/nikola/ws_moveit

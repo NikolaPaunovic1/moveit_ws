@@ -1,0 +1,4 @@
+string location
+uint8 id
+---
+geometry_msgs/Pose place_pose

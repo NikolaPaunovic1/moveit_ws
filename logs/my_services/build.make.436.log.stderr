@@ -1,0 +1,7 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Pose_Finder_Server.cpp:[m[K In member function ‘[01m[Kbool PoseFinderService::handleRequest(my_services::PoseFinderService::Request&, my_services::PoseFinderService::Response&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Pose_Finder_Server.cpp:87:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_services::PoseFinderService::Request[m[K’ {aka ‘[01m[Kstruct my_services::PoseFinderServiceRequest_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+   87 |             res.place_pose=origin_poses[req.[01;31m[Kid[m[K];
+      |                                             [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/Pose_Finder_Server.dir/build.make:63: CMakeFiles/Pose_Finder_Server.dir/src/Pose_Finder_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:359: CMakeFiles/Pose_Finder_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/aruco/share/aruco/cmake/arucoConfig-version.cmake

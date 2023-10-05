@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/activity_rec/share/activity_rec/cmake/activity_recConfig.cmake

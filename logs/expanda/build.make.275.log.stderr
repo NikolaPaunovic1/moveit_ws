@@ -1,0 +1,22 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:51:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’ has no member named ‘[01m[KaddCollisionObject[m[K’; did you mean ‘[01m[KaddCollisionObjects[m[K’?
+   51 | planning_scene_interface.[01;31m[KaddCollisionObject[m[K(collision_objects); //add objects to planning interface
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                          [32m[KaddCollisionObjects[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:90:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::PlanningSceneInterface::applyCollisionObject(std::vector<moveit_msgs::CollisionObject_<std::allocator<void> > >&)[m[K’
+   90 |     planning_scene_interface.applyCollisionObject(collision_objects[01;31m[K)[m[K; //apply changes to planning interface
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/expanda/src/track_object.cpp:5[m[K:
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/planning_scene_interface/include/moveit/planning_scene_interface/planning_scene_interface.h:103:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::PlanningSceneInterface::applyCollisionObject(const CollisionObject&)[m[K’
+  103 |   bool [01;36m[KapplyCollisionObject[m[K(const moveit_msgs::CollisionObject& collision_object);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/planning_scene_interface/include/moveit/planning_scene_interface/planning_scene_interface.h:103:65:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<moveit_msgs::CollisionObject_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst CollisionObject&[m[K’ {aka ‘[01m[Kconst moveit_msgs::CollisionObject_<std::allocator<void> >&[m[K’}
+  103 |   bool applyCollisionObject([01;36m[Kconst moveit_msgs::CollisionObject& collision_object[m[K);
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/planning_scene_interface/include/moveit/planning_scene_interface/planning_scene_interface.h:107:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::PlanningSceneInterface::applyCollisionObject(const CollisionObject&, const ColorRGBA&)[m[K’
+  107 |   bool [01;36m[KapplyCollisionObject[m[K(const moveit_msgs::CollisionObject& collision_object,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/planning_scene_interface/include/moveit/planning_scene_interface/planning_scene_interface.h:107:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+make[2]: *** [CMakeFiles/track_object.dir/build.make:63: CMakeFiles/track_object.dir/src/track_object.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3986: CMakeFiles/track_object.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

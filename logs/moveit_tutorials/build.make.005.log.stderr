@@ -1,0 +1,8 @@
+[01m[K/home/nikola/ws_moveit/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:308:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::planning_interface::MoveGroupInterface::Plan[m[K’ has no member named ‘[01m[K_trajectory[m[K’; did you mean ‘[01m[Ktrajectory_[m[K’?
+  308 |   testitout.[01;31m[K_trajectory[m[K = trajectory;
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[Ktrajectory_[m[K
+make[2]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/build.make:63: doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4280: doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- <node pkg="expanda" type="multimesh_spawner" name="object_spawner" output="screen"/> -->
+  <node pkg="expanda" type="eight_mesh_spawner" name="object_spawner" output="screen"/>
+
+  <node pkg="my_services" type="Pose_Finder_Server" name="pose_finder" output="screen"/>
+
+  <node pkg="my_services" type="smart_pickplace_server" name="Pickplace_Server" output="screen" launch-prefix="gnome-terminal --command"/>
+
+  <!-- <node pkg="expanda" type="triplet_detection" name="triplet_detector" output="screen"/> -->
+
+
+</launch>

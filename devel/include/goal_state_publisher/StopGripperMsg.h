@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/goal_state_publisher/include/goal_state_publisher/StopGripperMsg.h

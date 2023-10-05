@@ -1,0 +1,14 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_place.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_place.cpp:188:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_state[m[K’?
+  188 |   geometry_msgs::Quaternion current_orientation = [01;31m[Kcurrent_pose[m[K.orientation;
+      |                                                   [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                   [32m[Kcurrent_state[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_place.cpp:214:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kposture_pre[m[K’
+  214 |   [01;31m[Kposture_pre[m[K.joint_names.resize(2);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_place.cpp:227:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kposture[m[K’
+  227 |   [01;31m[Kposture[m[K.joint_names.resize(2);
+      |   [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/pick_place.dir/build.make:63: CMakeFiles/pick_place.dir/src/pick_place.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3066: CMakeFiles/pick_place.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

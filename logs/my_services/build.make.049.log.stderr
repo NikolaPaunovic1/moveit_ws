@@ -1,0 +1,113 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:23:52:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Knew[m[K’
+   23 |     sensor_msgs::PointCloud2::ConstPtr pointcloud_([01;31m[Knew[m[K sensor_msgs::PointCloud2);
+      |                                                    [01;31m[K^~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:23:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Knew[m[K’
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:28:47:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Knew[m[K’
+   28 |     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud([01;31m[Knew[m[K pcl::PointCloud<pcl::PointXYZ>);
+      |                                               [01;31m[K^~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:28:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Knew[m[K’
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:29:53:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Knew[m[K’
+   29 |     pcl::PointCloud<pcl::Normal>::Ptr cloud_normals([01;31m[Knew[m[K pcl::PointCloud<pcl::Normal>);
+      |                                                     [01;31m[K^~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:29:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Knew[m[K’
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:30:50:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Knew[m[K’
+   30 |     pcl::search::KdTree<pcl::PointXYZ>::Ptr tree([01;31m[Knew[m[K pcl::search::KdTree<pcl::PointXYZ>());
+      |                                                  [01;31m[K^~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:30:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Knew[m[K’
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:33:42:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Knew[m[K’
+   33 |     pcl::PointIndices::Ptr inliers_plane([01;31m[Knew[m[K pcl::PointIndices);
+      |                                          [01;31m[K^~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:33:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Knew[m[K’
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:35:52:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Knew[m[K’
+   35 |     pcl::ModelCoefficients::Ptr coefficients_plane([01;31m[Knew[m[K pcl::ModelCoefficients);
+      |                                                    [01;31m[K^~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:35:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Knew[m[K’
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:[m[K In member function ‘[01m[Kvoid ObjectDetectionService::pointCloudCallback(const ConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:41:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Ksensor_msgs::PointCloud2_<std::allocator<void> >::ConstPtr ObjectDetectionService::pointcloud_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   41 |         [01;31m[Kpointcloud_[m[K = msg;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:[m[K In member function ‘[01m[Kbool ObjectDetectionService::handleRequest(my_services::ObjectPositionService::Request&, my_services::ObjectPositionService::Response&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:47:14:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KObjectDetectionService::pointcloud_[m[K’ from type ‘[01m[Ksensor_msgs::PointCloud2_<std::allocator<void> >::ConstPtr (ObjectDetectionService::)(int)[m[K’ {aka ‘[01m[Kboost::shared_ptr<const sensor_msgs::PointCloud2_<std::allocator<void> > > (ObjectDetectionService::)(int)[m[K’} to type ‘[01m[Kbool[m[K’
+   47 |         if (![01;31m[Kpointcloud_[m[K ||pointcloud_->data.empty() || req.shape_name != "square")
+      |              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:47:14:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:47:28:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Ksensor_msgs::PointCloud2_<std::allocator<void> >::ConstPtr ObjectDetectionService::pointcloud_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   47 |         if (!pointcloud_ ||[01;31m[Kpointcloud_[m[K->data.empty() || req.shape_name != "square")
+      |                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:47:39:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   47 |         if (!pointcloud_ ||pointcloud_[01;31m[K->[m[Kdata.empty() || req.shape_name != "square")
+      |                                       [01;31m[K^~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:53:32:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Ksensor_msgs::PointCloud2_<std::allocator<void> >::ConstPtr ObjectDetectionService::pointcloud_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   53 |         std::string frame_id = [01;31m[Kpointcloud_[m[K->header.frame_id;
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:53:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   53 |         std::string frame_id = pointcloud_[01;31m[K->[m[Kheader.frame_id;
+      |                                           [01;31m[K^~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:60:26:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Ksensor_msgs::PointCloud2_<std::allocator<void> >::ConstPtr ObjectDetectionService::pointcloud_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   60 |         pcl::fromROSMsg(*[01;31m[Kpointcloud_[m[K, *cloud);
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:60:40:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr ObjectDetectionService::cloud(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   60 |         pcl::fromROSMsg(*pointcloud_, *[01;31m[Kcloud[m[K);
+      |                                        [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:65:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr ObjectDetectionService::cloud(int)[m[K’
+   65 |         pass.setInputCloud([01;31m[Kcloud[m[K);
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:28:41:[m[K [01;36m[Knote: [m[Kdeclared here
+   28 |     pcl::PointCloud<pcl::PointXYZ>::Ptr [01;36m[Kcloud[m[K(new pcl::PointCloud<pcl::PointXYZ>);
+      |                                         [01;36m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:69:22:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr ObjectDetectionService::cloud(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   69 |         pass.filter(*[01;31m[Kcloud[m[K);
+      |                      [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:73:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kpcl::search::KdTree<pcl::PointXYZ>::Ptr ObjectDetectionService::tree(int)[m[K’
+   73 |         ne.setSearchMethod([01;31m[Ktree[m[K);
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:30:45:[m[K [01;36m[Knote: [m[Kdeclared here
+   30 |     pcl::search::KdTree<pcl::PointXYZ>::Ptr [01;36m[Ktree[m[K(new pcl::search::KdTree<pcl::PointXYZ>());
+      |                                             [01;36m[K^~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:74:26:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr ObjectDetectionService::cloud(int)[m[K’
+   74 |         ne.setInputCloud([01;31m[Kcloud[m[K);
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:28:41:[m[K [01;36m[Knote: [m[Kdeclared here
+   28 |     pcl::PointCloud<pcl::PointXYZ>::Ptr [01;36m[Kcloud[m[K(new pcl::PointCloud<pcl::PointXYZ>);
+      |                                         [01;36m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:77:21:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kpcl::PointCloud<pcl::Normal>::Ptr ObjectDetectionService::cloud_normals(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   77 |         ne.compute(*[01;31m[Kcloud_normals[m[K);
+      |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:88:33:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr ObjectDetectionService::cloud(int)[m[K’
+   88 |         segmentor.setInputCloud([01;31m[Kcloud[m[K);
+      |                                 [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:28:41:[m[K [01;36m[Knote: [m[Kdeclared here
+   28 |     pcl::PointCloud<pcl::PointXYZ>::Ptr [01;36m[Kcloud[m[K(new pcl::PointCloud<pcl::PointXYZ>);
+      |                                         [01;36m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:91:28:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kpcl::PointIndices::Ptr ObjectDetectionService::inliers_plane(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   91 |         segmentor.segment(*[01;31m[Kinliers_plane[m[K, *coefficients_plane);
+      |                            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:91:44:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kpcl::ModelCoefficients::Ptr ObjectDetectionService::coefficients_plane(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   91 |         segmentor.segment(*inliers_plane, *[01;31m[Kcoefficients_plane[m[K);
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:93:39:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr ObjectDetectionService::cloud(int)[m[K’
+   93 |         extract_indices.setInputCloud([01;31m[Kcloud[m[K);
+      |                                       [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:28:41:[m[K [01;36m[Knote: [m[Kdeclared here
+   28 |     pcl::PointCloud<pcl::PointXYZ>::Ptr [01;36m[Kcloud[m[K(new pcl::PointCloud<pcl::PointXYZ>);
+      |                                         [01;36m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:94:36:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kpcl::PointIndices::Ptr ObjectDetectionService::inliers_plane(int)[m[K’
+   94 |         extract_indices.setIndices([01;31m[Kinliers_plane[m[K);
+      |                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:33:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   33 |     pcl::PointIndices::Ptr [01;36m[Kinliers_plane[m[K(new pcl::PointIndices);
+      |                            [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:97:33:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr ObjectDetectionService::cloud(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   97 |         extract_indices.filter(*[01;31m[Kcloud[m[K);
+      |                                 [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:102:24:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr ObjectDetectionService::cloud(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  102 |         pcl::toROSMsg(*[01;31m[Kcloud[m[K, testcloud);
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:149:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KObjectDetectionService::pointcloud_[m[K’ from type ‘[01m[Ksensor_msgs::PointCloud2_<std::allocator<void> >::ConstPtr (ObjectDetectionService::)(int)[m[K’ {aka ‘[01m[Kboost::shared_ptr<const sensor_msgs::PointCloud2_<std::allocator<void> > > (ObjectDetectionService::)(int)[m[K’} to type ‘[01m[Kbool[m[K’
+  149 |     while(!object_detection_service.[01;31m[Kpointcloud_[m[K){
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:149:37:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+make[2]: *** [CMakeFiles/Object_Detection_Server.dir/build.make:63: CMakeFiles/Object_Detection_Server.dir/src/Object_Detection_Server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:268: CMakeFiles/Object_Detection_Server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

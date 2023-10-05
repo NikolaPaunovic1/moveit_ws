@@ -1,0 +1,6 @@
+Missing content of submodule pybind11: Use 'git clone --recurse-submodule' in future.
+Checking out content automatically
+Submodule 'core/python/pybind11' (https://github.com/pybind/pybind11) registered for path 'pybind11'
+Cloning into '/home/nikola/ws_moveit/src/moveit_task_constructor/core/python/pybind11'...
+From https://github.com/pybind/pybind11
+ * branch            4070a64f867c60842476f74a2212110ea5e05230 -> FETCH_HEAD

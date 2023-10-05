@@ -1,0 +1,15 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/urdf/model.h:50[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h:42[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:2[m[K:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:[m[K In function ‘[01m[Kvoid doneCallback(const actionlib::SimpleClientGoalState&, const GraspResultConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:27:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kconst _error_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+   27 |     ROS_WARN([01;35m[K"Grasping command failed with error code %d."[m[K, result->error);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:27:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   27 |     ROS_WARN("Grasping command failed with error code [01;36m[K%d[m[K.", result->error);
+      |                                                       [01;36m[K~^[m[K
+      |                                                        [01;36m[K|[m[K
+      |                                                        [01;36m[Kint[m[K

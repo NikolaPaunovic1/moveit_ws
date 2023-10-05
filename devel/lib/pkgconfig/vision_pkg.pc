@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/vision_pkg/lib/pkgconfig/vision_pkg.pc

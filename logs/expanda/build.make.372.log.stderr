@@ -1,0 +1,13 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/testing_pickplace_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/testing_pickplace_server.cpp:69:11:[m[K [01;31m[Kerror: [m[K‘[01m[KShapeMsg[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   69 |   shapes::[01;31m[KShapeMsg[m[K mesh_msg;
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/testing_pickplace_server.cpp:70:11:[m[K [01;31m[Kerror: [m[K‘[01m[KconstructMsgFromShape[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   70 |   shapes::[01;31m[KconstructMsgFromShape[m[K(m, mesh_msg);
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/testing_pickplace_server.cpp:70:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmesh_msg[m[K’ was not declared in this scope
+   70 |   shapes::constructMsgFromShape(m, [01;31m[Kmesh_msg[m[K);
+      |                                    [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/testing_pickplace_server.dir/build.make:63: CMakeFiles/testing_pickplace_server.dir/src/testing_pickplace_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/testing_pickplace_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_place.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_place.cpp:255:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ktf2::Quaternion orientation[m[K’
+  255 |   tf2::Quaternion [01;31m[Korientation[m[K;
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_place.cpp:187:19:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::Quaternion orientation[m[K’ previously declared here
+  187 |   tf2::Quaternion [01;36m[Korientation[m[K;
+      |                   [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pick_place.dir/build.make:63: CMakeFiles/pick_place.dir/src/pick_place.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3066: CMakeFiles/pick_place.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

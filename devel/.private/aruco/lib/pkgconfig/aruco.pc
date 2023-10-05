@@ -1,0 +1,8 @@
+prefix=/home/nikola/ws_moveit/devel/.private/aruco
+
+Name: aruco
+Description: Description of aruco
+Version: 3.1.3
+Cflags: -I/home/nikola/ws_moveit/src/aruco_ros/aruco/include
+Libs: -L${prefix}/lib -laruco
+Requires: 

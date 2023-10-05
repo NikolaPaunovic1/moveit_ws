@@ -1,0 +1,15 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/smart_pickplace_server.cpp:[m[K In constructor ‘[01m[KPickPlaceAction_Server::PickPlaceAction_Server(std::string)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/smart_pickplace_server.cpp:77:90:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+   77 |     grasp_dictionary.push_back(create_grasp_data[34m[K([m[K0, -tau / 2, tau * 5 / 8, 0.0, 0.0, 0.15[01;31m[K [m[K[32m[K0.0[m[K, 0.0, 0, 0, 0, 0.18, 0.07));
+      |                                                 [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                                          [32m[K)[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/smart_pickplace_server.cpp:77:120:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPickPlaceAction_Server::create_grasp_data(int, double, double, double, double, double, double, int, int, int, double, double)[m[K’
+   77 |     grasp_dictionary.push_back(create_grasp_data(0, -tau / 2, tau * 5 / 8, 0.0, 0.0, 0.15 0.0, 0.0, 0, 0, 0, 0.18, 0.07[01;31m[K)[m[K);
+      |                                                                                                                        [01;31m[K^[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/smart_pickplace_server.cpp:95:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgrasp_data PickPlaceAction_Server::create_grasp_data(double, double, double, double, double, double, double, double, double, double, double, double, double)[m[K’
+   95 |     grasp_data [01;36m[Kcreate_grasp_data[m[K(double roll1, double pitch1, double yaw1,
+      |                [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/my_services/src/smart_pickplace_server.cpp:95:16:[m[K [01;36m[Knote: [m[K  candidate expects 13 arguments, 12 provided
+make[2]: *** [CMakeFiles/smart_pickplace_server.dir/build.make:63: CMakeFiles/smart_pickplace_server.dir/src/smart_pickplace_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:306: CMakeFiles/smart_pickplace_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

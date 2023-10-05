@@ -1,0 +1,23 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:187:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrasps[m[K’ was not declared in this scope
+  187 |   [01;31m[Kgrasps[m[K[0].grasp_pose.pose.orientation = tf2::toMsg(orientation);
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:195:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_orientation_type[m[K’ {aka ‘[01m[Kgeometry_msgs::Quaternion_<std::allocator<void> >[m[K’} and ‘[01m[Ktf2::Quaternion[m[K’)
+  195 |   target_pose1.orientation = [01;31m[Korientation[m[K;
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/geometry_msgs/Pose.h:19[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:39[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h:46[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/geometry_msgs/Quaternion.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::Quaternion_<std::allocator<void> >& geometry_msgs::Quaternion_<std::allocator<void> >::operator=(const geometry_msgs::Quaternion_<std::allocator<void> >&)[m[K’
+   22 | struct [01;36m[KQuaternion_[m[K
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/geometry_msgs/Quaternion.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Quaternion[m[K’ to ‘[01m[Kconst geometry_msgs::Quaternion_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/noetic/include/geometry_msgs/Quaternion.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::Quaternion_<std::allocator<void> >& geometry_msgs::Quaternion_<std::allocator<void> >::operator=(geometry_msgs::Quaternion_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/noetic/include/geometry_msgs/Quaternion.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Quaternion[m[K’ to ‘[01m[Kgeometry_msgs::Quaternion_<std::allocator<void> >&&[m[K’
+make[2]: *** [CMakeFiles/mg_interface.dir/build.make:63: CMakeFiles/mg_interface.dir/src/mg_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3471: CMakeFiles/mg_interface.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

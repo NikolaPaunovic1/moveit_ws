@@ -1,0 +1,33 @@
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_Property
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_ExecuteTaskSolutionResult
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_ExecuteTaskSolutionActionFeedback
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_ExecuteTaskSolutionActionResult
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_ExecuteTaskSolutionActionGoal
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_GetSolution
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_TaskStatistics
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_ExecuteTaskSolutionAction
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_TaskDescription
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_SubSolution
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_SolutionInfo
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_ExecuteTaskSolutionGoal
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_Solution
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_ExecuteTaskSolutionFeedback
+[  0%] Built target moveit_msgs_generate_messages_cpp
+[  0%] Built target moveit_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target moveit_msgs_generate_messages_nodejs
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_StageStatistics
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_StageDescription
+[  0%] Built target _moveit_task_constructor_msgs_generate_messages_check_deps_SubTrajectory
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target moveit_msgs_generate_messages_lisp
+[  0%] Built target moveit_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[ 19%] Built target moveit_task_constructor_msgs_generate_messages_cpp
+[ 40%] Built target moveit_task_constructor_msgs_generate_messages_py
+[ 60%] Built target moveit_task_constructor_msgs_generate_messages_lisp
+[ 79%] Built target moveit_task_constructor_msgs_generate_messages_nodejs
+[100%] Built target moveit_task_constructor_msgs_generate_messages_eus
+[100%] Built target moveit_task_constructor_msgs_generate_messages

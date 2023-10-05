@@ -1,0 +1,44 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:271:49:[m[K [01;31m[Kerror: [m[K‘[01m[KGripperCommandAction[m[K’ is not a member of ‘[01m[Kfranka_gripper[m[K’; did you mean ‘[01m[Kcontrol_msgs::GripperCommandAction[m[K’?
+  271 |   actionlib::SimpleActionClient<franka_gripper::[01;31m[KGripperCommandAction[m[K> client("/franka_gripper/gripper_action", true);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:16[m[K:
+[01m[K/opt/ros/noetic/include/control_msgs/GripperCommandAction.h:61:70:[m[K [01;36m[Knote: [m[K‘[01m[Kcontrol_msgs::GripperCommandAction[m[K’ declared here
+   61 | typedef ::control_msgs::GripperCommandAction_<std::allocator<void> > [01;36m[KGripperCommandAction[m[K;
+      |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:271:49:[m[K [01;31m[Kerror: [m[K‘[01m[KGripperCommandAction[m[K’ is not a member of ‘[01m[Kfranka_gripper[m[K’; did you mean ‘[01m[Kcontrol_msgs::GripperCommandAction[m[K’?
+  271 |   actionlib::SimpleActionClient<franka_gripper::[01;31m[KGripperCommandAction[m[K> client("/franka_gripper/gripper_action", true);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:16[m[K:
+[01m[K/opt/ros/noetic/include/control_msgs/GripperCommandAction.h:61:70:[m[K [01;36m[Knote: [m[K‘[01m[Kcontrol_msgs::GripperCommandAction[m[K’ declared here
+   61 | typedef ::control_msgs::GripperCommandAction_<std::allocator<void> > [01;36m[KGripperCommandAction[m[K;
+      |                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:271:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  271 |   actionlib::SimpleActionClient<franka_gripper::GripperCommandAction[01;31m[K>[m[K client("/franka_gripper/gripper_action", true);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:271:116:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  271 |   actionlib::SimpleActionClient<franka_gripper::GripperCommandAction> client("/franka_gripper/gripper_action", true[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:272:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KwaitForServer[m[K’ in ‘[01m[Kclient[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  272 |   client.[01;31m[KwaitForServer[m[K();
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:275:19:[m[K [01;31m[Kerror: [m[K‘[01m[KGripperCommandActionGoal[m[K’ is not a member of ‘[01m[Kfranka_gripper[m[K’; did you mean ‘[01m[Kcontrol_msgs::GripperCommandActionGoal[m[K’?
+  275 |   franka_gripper::[01;31m[KGripperCommandActionGoal[m[K goal;
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/control_msgs/GripperCommandAction.h:18[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:16[m[K:
+[01m[K/opt/ros/noetic/include/control_msgs/GripperCommandActionGoal.h:61:74:[m[K [01;36m[Knote: [m[K‘[01m[Kcontrol_msgs::GripperCommandActionGoal[m[K’ declared here
+   61 | typedef ::control_msgs::GripperCommandActionGoal_<std::allocator<void> > [01;36m[KGripperCommandActionGoal[m[K;
+      |                                                                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:276:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+  276 |   [01;31m[Kgoal[m[K.command.position = 0.02;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:281:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsendGoal[m[K’ in ‘[01m[Kclient[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  281 |   client.[01;31m[KsendGoal[m[K(goal);
+      |          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikola/ws_moveit/src/expanda/src/pick_2.cpp:320:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KcancelGoal[m[K’ in ‘[01m[Kclient[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  320 |   client.[01;31m[KcancelGoal[m[K();
+      |          [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pick_2.dir/build.make:63: CMakeFiles/pick_2.dir/src/pick_2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2052: CMakeFiles/pick_2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

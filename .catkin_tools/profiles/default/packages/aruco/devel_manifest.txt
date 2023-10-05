@@ -1,0 +1,6 @@
+aruco_ros/aruco
+/home/nikola/ws_moveit/devel/.private/aruco/cmake.lock /home/nikola/ws_moveit/devel/./cmake.lock
+/home/nikola/ws_moveit/devel/.private/aruco/share/aruco/cmake/arucoConfig.cmake /home/nikola/ws_moveit/devel/share/aruco/cmake/arucoConfig.cmake
+/home/nikola/ws_moveit/devel/.private/aruco/share/aruco/cmake/arucoConfig-version.cmake /home/nikola/ws_moveit/devel/share/aruco/cmake/arucoConfig-version.cmake
+/home/nikola/ws_moveit/devel/.private/aruco/lib/libaruco.so /home/nikola/ws_moveit/devel/lib/libaruco.so
+/home/nikola/ws_moveit/devel/.private/aruco/lib/pkgconfig/aruco.pc /home/nikola/ws_moveit/devel/lib/pkgconfig/aruco.pc

@@ -1,0 +1,8 @@
+prefix=/home/nikola/ws_moveit/install
+
+Name: vision_pkg
+Description: Description of vision_pkg
+Version: 0.0.0
+Cflags: -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: tf2_geometry_msgs message_filters

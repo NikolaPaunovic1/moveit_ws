@@ -1,0 +1,4 @@
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:[m[K In member function ‘[01m[Kbool ObjectDetectionService::handleRequest(my_services::ObjectPositionService::Request&, my_services::ObjectPositionService::Response&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/my_services/src/Object_Detection_Server.cpp:61:52:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   61 |         std::string frame_id = pointcloud_->header.[01;35m[Kframe_id[m[K;
+      |                                                    [01;35m[K^~~~~~~~[m[K

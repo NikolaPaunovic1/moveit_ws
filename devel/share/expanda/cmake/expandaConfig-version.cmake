@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/expanda/share/expanda/cmake/expandaConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/_index.js

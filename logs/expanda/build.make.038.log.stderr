@@ -1,0 +1,8 @@
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/mg_interface.cpp:246:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’ has no member named ‘[01m[KaddCollisionObject[m[K’; did you mean ‘[01m[KaddCollisionObjects[m[K’?
+  246 |   planning_scene_interface.[01;31m[KaddCollisionObject[m[K(wall);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                            [32m[KaddCollisionObjects[m[K
+make[2]: *** [CMakeFiles/mg_interface.dir/build.make:63: CMakeFiles/mg_interface.dir/src/mg_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3442: CMakeFiles/mg_interface.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

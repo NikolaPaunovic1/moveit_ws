@@ -1,0 +1,14 @@
+Unlinking: /home/nikola/ws_moveit/devel/share/aruco_ros/cmake/aruco_rosConfig-version.cmake
+Unlinking: /home/nikola/ws_moveit/devel/share/aruco_ros/cmake/aruco_rosConfig.cmake
+Unlinking: /home/nikola/ws_moveit/devel/share/aruco_ros/docs/ArucoThresholdConfig.dox
+Unlinking: /home/nikola/ws_moveit/devel/share/aruco_ros/docs/ArucoThresholdConfig-usage.dox
+Unlinking: /home/nikola/ws_moveit/devel/share/aruco_ros/docs/ArucoThresholdConfig.wikidoc
+Unlinking: /home/nikola/ws_moveit/devel/include/aruco_ros/ArucoThresholdConfig.h
+Unlinking: /home/nikola/ws_moveit/devel/lib/libaruco_ros_utils.so
+Unlinking: /home/nikola/ws_moveit/devel/lib/python3/dist-packages/aruco_ros/__init__.py
+Unlinking: /home/nikola/ws_moveit/devel/lib/python3/dist-packages/aruco_ros/cfg/__init__.py
+Unlinking: /home/nikola/ws_moveit/devel/lib/python3/dist-packages/aruco_ros/cfg/ArucoThresholdConfig.py
+Unlinking: /home/nikola/ws_moveit/devel/lib/aruco_ros/single
+Unlinking: /home/nikola/ws_moveit/devel/lib/aruco_ros/marker_publisher
+Unlinking: /home/nikola/ws_moveit/devel/lib/aruco_ros/double
+Unlinking: /home/nikola/ws_moveit/devel/lib/pkgconfig/aruco_ros.pc

@@ -1,0 +1,4 @@
+Linked: (/home/nikola/ws_moveit/devel/.private/aruco/share/aruco/cmake/arucoConfig.cmake, /home/nikola/ws_moveit/devel/share/aruco/cmake/arucoConfig.cmake)
+Linked: (/home/nikola/ws_moveit/devel/.private/aruco/share/aruco/cmake/arucoConfig-version.cmake, /home/nikola/ws_moveit/devel/share/aruco/cmake/arucoConfig-version.cmake)
+Linked: (/home/nikola/ws_moveit/devel/.private/aruco/lib/libaruco.so, /home/nikola/ws_moveit/devel/lib/libaruco.so)
+Linked: (/home/nikola/ws_moveit/devel/.private/aruco/lib/pkgconfig/aruco.pc, /home/nikola/ws_moveit/devel/lib/pkgconfig/aruco.pc)

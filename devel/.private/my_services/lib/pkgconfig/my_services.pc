@@ -1,0 +1,8 @@
+prefix=/home/nikola/ws_moveit/devel/.private/my_services
+
+Name: my_services
+Description: Description of my_services
+Version: 0.0.0
+Cflags: -I/home/nikola/ws_moveit/devel/.private/my_services/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs geometry_msgs message_generation roscpp sensor_msgs std_msgs message_runtime tf2_geometry_msgs moveit_msgs image_transport cv_bridge tf2_ros franka_gripper moveit_core moveit_ros_planning moveit_ros_planning_interface rviz_visual_tools moveit_visual_tools pluginlib

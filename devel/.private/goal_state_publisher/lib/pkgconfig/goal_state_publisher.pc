@@ -1,0 +1,8 @@
+prefix=/home/nikola/ws_moveit/devel/.private/goal_state_publisher
+
+Name: goal_state_publisher
+Description: Description of goal_state_publisher
+Version: 0.0.0
+Cflags: -I/home/nikola/ws_moveit/devel/.private/goal_state_publisher/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs moveit_core moveit_msgs moveit_ros_planning moveit_ros_planning_interface roscpp std_msgs message_runtime

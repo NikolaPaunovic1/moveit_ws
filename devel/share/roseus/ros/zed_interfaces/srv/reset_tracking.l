@@ -1,0 +1,1 @@
+/home/nikola/ws_moveit/devel/.private/zed_interfaces/share/roseus/ros/zed_interfaces/srv/reset_tracking.l

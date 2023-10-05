@@ -1,0 +1,13 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/urdf/model.h:50[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h:42[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:2[m[K:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:[m[K In function ‘[01m[Kvoid doneCallback(const actionlib::SimpleClientGoalState&, const GraspResultConstPtr&)[m[K’:
+[01m[K/home/nikola/ws_moveit/src/expanda/src/gazebo_pick.cpp:27:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct franka_gripper::GraspResult_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kerror_code[m[K’
+   27 |     ROS_WARN("Grasping command failed with error code %d.", result->[01;31m[Kerror_code[m[K);
+      |                                                                     [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/gazebo_pick.dir/build.make:63: CMakeFiles/gazebo_pick.dir/src/gazebo_pick.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:270: CMakeFiles/gazebo_pick.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

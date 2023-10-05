@@ -1,0 +1,10 @@
+<launch>
+
+  <node name="spawn_pick_place_env" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" 
+  args="-sdf -file /home/nikola/models_gazebo/pick_place_nowall.sdf -model pick_place_nowall" />
+  <node name="spawn_cuttingboard" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+  args="-sdf -file /home/nikola/.gazebo/models/cuttingboard/model.sdf -model cuttingboard"/>
+  <node name="spawn_bowl" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+  args="-sdf -file /home/nikola/.gazebo/models/bowl/model.sdf -model bowl"/>
+
+</launch>

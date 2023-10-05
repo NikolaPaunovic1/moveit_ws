@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="x" default=""/>
+  <arg name="y" default=""/> 
+  <!-- <node pkg="expanda" type="pcl_bagpublisher" name="pcl_bagpublisher" output="screen"/> -->
+  <node pkg="expanda" type="cam_tripod_spawner" name="cam_tripod_spawner" output="screen" args="$(arg x) $(arg y)"/>
+
+</launch>
