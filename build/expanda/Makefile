@@ -181,19 +181,6 @@ eight_mesh_spawner/fast:
 .PHONY : eight_mesh_spawner/fast
 
 #=============================================================================
-# Target rules for targets named multimesh_spawner
-
-# Build rule for target.
-multimesh_spawner: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 multimesh_spawner
-.PHONY : multimesh_spawner
-
-# fast build rule for target.
-multimesh_spawner/fast:
-	$(MAKE) -f CMakeFiles/multimesh_spawner.dir/build.make CMakeFiles/multimesh_spawner.dir/build
-.PHONY : multimesh_spawner/fast
-
-#=============================================================================
 # Target rules for targets named cam_tripod_spawner
 
 # Build rule for target.
@@ -207,19 +194,6 @@ cam_tripod_spawner/fast:
 .PHONY : cam_tripod_spawner/fast
 
 #=============================================================================
-# Target rules for targets named pcl_bagpublisher
-
-# Build rule for target.
-pcl_bagpublisher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcl_bagpublisher
-.PHONY : pcl_bagpublisher
-
-# fast build rule for target.
-pcl_bagpublisher/fast:
-	$(MAKE) -f CMakeFiles/pcl_bagpublisher.dir/build.make CMakeFiles/pcl_bagpublisher.dir/build
-.PHONY : pcl_bagpublisher/fast
-
-#=============================================================================
 # Target rules for targets named triplet_detection
 
 # Build rule for target.
@@ -231,123 +205,6 @@ triplet_detection: cmake_check_build_system
 triplet_detection/fast:
 	$(MAKE) -f CMakeFiles/triplet_detection.dir/build.make CMakeFiles/triplet_detection.dir/build
 .PHONY : triplet_detection/fast
-
-#=============================================================================
-# Target rules for targets named testing_pickplace_server
-
-# Build rule for target.
-testing_pickplace_server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testing_pickplace_server
-.PHONY : testing_pickplace_server
-
-# fast build rule for target.
-testing_pickplace_server/fast:
-	$(MAKE) -f CMakeFiles/testing_pickplace_server.dir/build.make CMakeFiles/testing_pickplace_server.dir/build
-.PHONY : testing_pickplace_server/fast
-
-#=============================================================================
-# Target rules for targets named multicam_track
-
-# Build rule for target.
-multicam_track: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 multicam_track
-.PHONY : multicam_track
-
-# fast build rule for target.
-multicam_track/fast:
-	$(MAKE) -f CMakeFiles/multicam_track.dir/build.make CMakeFiles/multicam_track.dir/build
-.PHONY : multicam_track/fast
-
-#=============================================================================
-# Target rules for targets named cloud_merger_worldframe
-
-# Build rule for target.
-cloud_merger_worldframe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cloud_merger_worldframe
-.PHONY : cloud_merger_worldframe
-
-# fast build rule for target.
-cloud_merger_worldframe/fast:
-	$(MAKE) -f CMakeFiles/cloud_merger_worldframe.dir/build.make CMakeFiles/cloud_merger_worldframe.dir/build
-.PHONY : cloud_merger_worldframe/fast
-
-#=============================================================================
-# Target rules for targets named icp2_node
-
-# Build rule for target.
-icp2_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 icp2_node
-.PHONY : icp2_node
-
-# fast build rule for target.
-icp2_node/fast:
-	$(MAKE) -f CMakeFiles/icp2_node.dir/build.make CMakeFiles/icp2_node.dir/build
-.PHONY : icp2_node/fast
-
-#=============================================================================
-# Target rules for targets named icp_node
-
-# Build rule for target.
-icp_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 icp_node
-.PHONY : icp_node
-
-# fast build rule for target.
-icp_node/fast:
-	$(MAKE) -f CMakeFiles/icp_node.dir/build.make CMakeFiles/icp_node.dir/build
-.PHONY : icp_node/fast
-
-#=============================================================================
-# Target rules for targets named object_detection_demo
-
-# Build rule for target.
-object_detection_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 object_detection_demo
-.PHONY : object_detection_demo
-
-# fast build rule for target.
-object_detection_demo/fast:
-	$(MAKE) -f CMakeFiles/object_detection_demo.dir/build.make CMakeFiles/object_detection_demo.dir/build
-.PHONY : object_detection_demo/fast
-
-#=============================================================================
-# Target rules for targets named depthcam_demo
-
-# Build rule for target.
-depthcam_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 depthcam_demo
-.PHONY : depthcam_demo
-
-# fast build rule for target.
-depthcam_demo/fast:
-	$(MAKE) -f CMakeFiles/depthcam_demo.dir/build.make CMakeFiles/depthcam_demo.dir/build
-.PHONY : depthcam_demo/fast
-
-#=============================================================================
-# Target rules for targets named gazebo_pick
-
-# Build rule for target.
-gazebo_pick: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_pick
-.PHONY : gazebo_pick
-
-# fast build rule for target.
-gazebo_pick/fast:
-	$(MAKE) -f CMakeFiles/gazebo_pick.dir/build.make CMakeFiles/gazebo_pick.dir/build
-.PHONY : gazebo_pick/fast
-
-#=============================================================================
-# Target rules for targets named mg_interface
-
-# Build rule for target.
-mg_interface: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mg_interface
-.PHONY : mg_interface
-
-# fast build rule for target.
-mg_interface/fast:
-	$(MAKE) -f CMakeFiles/mg_interface.dir/build.make CMakeFiles/mg_interface.dir/build
-.PHONY : mg_interface/fast
 
 #=============================================================================
 # Target rules for targets named my_services_generate_messages_py
@@ -1247,19 +1104,6 @@ actionlib_generate_messages_nodejs/fast:
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named test_smart_pickplace
-
-# Build rule for target.
-test_smart_pickplace: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_smart_pickplace
-.PHONY : test_smart_pickplace
-
-# fast build rule for target.
-test_smart_pickplace/fast:
-	$(MAKE) -f CMakeFiles/test_smart_pickplace.dir/build.make CMakeFiles/test_smart_pickplace.dir/build
-.PHONY : test_smart_pickplace/fast
-
-#=============================================================================
 # Target rules for targets named shape_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -1468,19 +1312,6 @@ object_recognition_msgs_generate_messages_nodejs/fast:
 .PHONY : object_recognition_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named multiobject_multicam_track
-
-# Build rule for target.
-multiobject_multicam_track: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 multiobject_multicam_track
-.PHONY : multiobject_multicam_track
-
-# fast build rule for target.
-multiobject_multicam_track/fast:
-	$(MAKE) -f CMakeFiles/multiobject_multicam_track.dir/build.make CMakeFiles/multiobject_multicam_track.dir/build
-.PHONY : multiobject_multicam_track/fast
-
-#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -1609,19 +1440,6 @@ tf_generate_messages_cpp: cmake_check_build_system
 tf_generate_messages_cpp/fast:
 	$(MAKE) -f CMakeFiles/tf_generate_messages_cpp.dir/build.make CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named cloud_merger
-
-# Build rule for target.
-cloud_merger: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cloud_merger
-.PHONY : cloud_merger
-
-# fast build rule for target.
-cloud_merger/fast:
-	$(MAKE) -f CMakeFiles/cloud_merger.dir/build.make CMakeFiles/cloud_merger.dir/build
-.PHONY : cloud_merger/fast
 
 #=============================================================================
 # Target rules for targets named tf_generate_messages_lisp
@@ -1871,19 +1689,6 @@ bond_generate_messages_lisp/fast:
 .PHONY : bond_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named pick_place
-
-# Build rule for target.
-pick_place: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pick_place
-.PHONY : pick_place
-
-# fast build rule for target.
-pick_place/fast:
-	$(MAKE) -f CMakeFiles/pick_place.dir/build.make CMakeFiles/pick_place.dir/build
-.PHONY : pick_place/fast
-
-#=============================================================================
 # Target rules for targets named bond_generate_messages_py
 
 # Build rule for target.
@@ -2092,19 +1897,6 @@ topic_tools_generate_messages_eus/fast:
 .PHONY : topic_tools_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named track_object
-
-# Build rule for target.
-track_object: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 track_object
-.PHONY : track_object
-
-# fast build rule for target.
-track_object/fast:
-	$(MAKE) -f CMakeFiles/track_object.dir/build.make CMakeFiles/track_object.dir/build
-.PHONY : track_object/fast
-
-#=============================================================================
 # Target rules for targets named topic_tools_generate_messages_nodejs
 
 # Build rule for target.
@@ -2301,87 +2093,6 @@ src/cam_tripod_spawner.cpp.s:
 	$(MAKE) -f CMakeFiles/cam_tripod_spawner.dir/build.make CMakeFiles/cam_tripod_spawner.dir/src/cam_tripod_spawner.cpp.s
 .PHONY : src/cam_tripod_spawner.cpp.s
 
-src/cloud_merger.o: src/cloud_merger.cpp.o
-
-.PHONY : src/cloud_merger.o
-
-# target to build an object file
-src/cloud_merger.cpp.o:
-	$(MAKE) -f CMakeFiles/cloud_merger.dir/build.make CMakeFiles/cloud_merger.dir/src/cloud_merger.cpp.o
-.PHONY : src/cloud_merger.cpp.o
-
-src/cloud_merger.i: src/cloud_merger.cpp.i
-
-.PHONY : src/cloud_merger.i
-
-# target to preprocess a source file
-src/cloud_merger.cpp.i:
-	$(MAKE) -f CMakeFiles/cloud_merger.dir/build.make CMakeFiles/cloud_merger.dir/src/cloud_merger.cpp.i
-.PHONY : src/cloud_merger.cpp.i
-
-src/cloud_merger.s: src/cloud_merger.cpp.s
-
-.PHONY : src/cloud_merger.s
-
-# target to generate assembly for a file
-src/cloud_merger.cpp.s:
-	$(MAKE) -f CMakeFiles/cloud_merger.dir/build.make CMakeFiles/cloud_merger.dir/src/cloud_merger.cpp.s
-.PHONY : src/cloud_merger.cpp.s
-
-src/cloud_merger_worldframe.o: src/cloud_merger_worldframe.cpp.o
-
-.PHONY : src/cloud_merger_worldframe.o
-
-# target to build an object file
-src/cloud_merger_worldframe.cpp.o:
-	$(MAKE) -f CMakeFiles/cloud_merger_worldframe.dir/build.make CMakeFiles/cloud_merger_worldframe.dir/src/cloud_merger_worldframe.cpp.o
-.PHONY : src/cloud_merger_worldframe.cpp.o
-
-src/cloud_merger_worldframe.i: src/cloud_merger_worldframe.cpp.i
-
-.PHONY : src/cloud_merger_worldframe.i
-
-# target to preprocess a source file
-src/cloud_merger_worldframe.cpp.i:
-	$(MAKE) -f CMakeFiles/cloud_merger_worldframe.dir/build.make CMakeFiles/cloud_merger_worldframe.dir/src/cloud_merger_worldframe.cpp.i
-.PHONY : src/cloud_merger_worldframe.cpp.i
-
-src/cloud_merger_worldframe.s: src/cloud_merger_worldframe.cpp.s
-
-.PHONY : src/cloud_merger_worldframe.s
-
-# target to generate assembly for a file
-src/cloud_merger_worldframe.cpp.s:
-	$(MAKE) -f CMakeFiles/cloud_merger_worldframe.dir/build.make CMakeFiles/cloud_merger_worldframe.dir/src/cloud_merger_worldframe.cpp.s
-.PHONY : src/cloud_merger_worldframe.cpp.s
-
-src/depthcam_demo.o: src/depthcam_demo.cpp.o
-
-.PHONY : src/depthcam_demo.o
-
-# target to build an object file
-src/depthcam_demo.cpp.o:
-	$(MAKE) -f CMakeFiles/depthcam_demo.dir/build.make CMakeFiles/depthcam_demo.dir/src/depthcam_demo.cpp.o
-.PHONY : src/depthcam_demo.cpp.o
-
-src/depthcam_demo.i: src/depthcam_demo.cpp.i
-
-.PHONY : src/depthcam_demo.i
-
-# target to preprocess a source file
-src/depthcam_demo.cpp.i:
-	$(MAKE) -f CMakeFiles/depthcam_demo.dir/build.make CMakeFiles/depthcam_demo.dir/src/depthcam_demo.cpp.i
-.PHONY : src/depthcam_demo.cpp.i
-
-src/depthcam_demo.s: src/depthcam_demo.cpp.s
-
-.PHONY : src/depthcam_demo.s
-
-# target to generate assembly for a file
-src/depthcam_demo.cpp.s:
-	$(MAKE) -f CMakeFiles/depthcam_demo.dir/build.make CMakeFiles/depthcam_demo.dir/src/depthcam_demo.cpp.s
-.PHONY : src/depthcam_demo.cpp.s
-
 src/eight_mesh_spawner.o: src/eight_mesh_spawner.cpp.o
 
 .PHONY : src/eight_mesh_spawner.o
@@ -2408,357 +2119,6 @@ src/eight_mesh_spawner.s: src/eight_mesh_spawner.cpp.s
 src/eight_mesh_spawner.cpp.s:
 	$(MAKE) -f CMakeFiles/eight_mesh_spawner.dir/build.make CMakeFiles/eight_mesh_spawner.dir/src/eight_mesh_spawner.cpp.s
 .PHONY : src/eight_mesh_spawner.cpp.s
-
-src/gazebo_pick.o: src/gazebo_pick.cpp.o
-
-.PHONY : src/gazebo_pick.o
-
-# target to build an object file
-src/gazebo_pick.cpp.o:
-	$(MAKE) -f CMakeFiles/gazebo_pick.dir/build.make CMakeFiles/gazebo_pick.dir/src/gazebo_pick.cpp.o
-.PHONY : src/gazebo_pick.cpp.o
-
-src/gazebo_pick.i: src/gazebo_pick.cpp.i
-
-.PHONY : src/gazebo_pick.i
-
-# target to preprocess a source file
-src/gazebo_pick.cpp.i:
-	$(MAKE) -f CMakeFiles/gazebo_pick.dir/build.make CMakeFiles/gazebo_pick.dir/src/gazebo_pick.cpp.i
-.PHONY : src/gazebo_pick.cpp.i
-
-src/gazebo_pick.s: src/gazebo_pick.cpp.s
-
-.PHONY : src/gazebo_pick.s
-
-# target to generate assembly for a file
-src/gazebo_pick.cpp.s:
-	$(MAKE) -f CMakeFiles/gazebo_pick.dir/build.make CMakeFiles/gazebo_pick.dir/src/gazebo_pick.cpp.s
-.PHONY : src/gazebo_pick.cpp.s
-
-src/icp2_node.o: src/icp2_node.cpp.o
-
-.PHONY : src/icp2_node.o
-
-# target to build an object file
-src/icp2_node.cpp.o:
-	$(MAKE) -f CMakeFiles/icp2_node.dir/build.make CMakeFiles/icp2_node.dir/src/icp2_node.cpp.o
-.PHONY : src/icp2_node.cpp.o
-
-src/icp2_node.i: src/icp2_node.cpp.i
-
-.PHONY : src/icp2_node.i
-
-# target to preprocess a source file
-src/icp2_node.cpp.i:
-	$(MAKE) -f CMakeFiles/icp2_node.dir/build.make CMakeFiles/icp2_node.dir/src/icp2_node.cpp.i
-.PHONY : src/icp2_node.cpp.i
-
-src/icp2_node.s: src/icp2_node.cpp.s
-
-.PHONY : src/icp2_node.s
-
-# target to generate assembly for a file
-src/icp2_node.cpp.s:
-	$(MAKE) -f CMakeFiles/icp2_node.dir/build.make CMakeFiles/icp2_node.dir/src/icp2_node.cpp.s
-.PHONY : src/icp2_node.cpp.s
-
-src/icp_node.o: src/icp_node.cpp.o
-
-.PHONY : src/icp_node.o
-
-# target to build an object file
-src/icp_node.cpp.o:
-	$(MAKE) -f CMakeFiles/icp_node.dir/build.make CMakeFiles/icp_node.dir/src/icp_node.cpp.o
-.PHONY : src/icp_node.cpp.o
-
-src/icp_node.i: src/icp_node.cpp.i
-
-.PHONY : src/icp_node.i
-
-# target to preprocess a source file
-src/icp_node.cpp.i:
-	$(MAKE) -f CMakeFiles/icp_node.dir/build.make CMakeFiles/icp_node.dir/src/icp_node.cpp.i
-.PHONY : src/icp_node.cpp.i
-
-src/icp_node.s: src/icp_node.cpp.s
-
-.PHONY : src/icp_node.s
-
-# target to generate assembly for a file
-src/icp_node.cpp.s:
-	$(MAKE) -f CMakeFiles/icp_node.dir/build.make CMakeFiles/icp_node.dir/src/icp_node.cpp.s
-.PHONY : src/icp_node.cpp.s
-
-src/mg_interface.o: src/mg_interface.cpp.o
-
-.PHONY : src/mg_interface.o
-
-# target to build an object file
-src/mg_interface.cpp.o:
-	$(MAKE) -f CMakeFiles/mg_interface.dir/build.make CMakeFiles/mg_interface.dir/src/mg_interface.cpp.o
-.PHONY : src/mg_interface.cpp.o
-
-src/mg_interface.i: src/mg_interface.cpp.i
-
-.PHONY : src/mg_interface.i
-
-# target to preprocess a source file
-src/mg_interface.cpp.i:
-	$(MAKE) -f CMakeFiles/mg_interface.dir/build.make CMakeFiles/mg_interface.dir/src/mg_interface.cpp.i
-.PHONY : src/mg_interface.cpp.i
-
-src/mg_interface.s: src/mg_interface.cpp.s
-
-.PHONY : src/mg_interface.s
-
-# target to generate assembly for a file
-src/mg_interface.cpp.s:
-	$(MAKE) -f CMakeFiles/mg_interface.dir/build.make CMakeFiles/mg_interface.dir/src/mg_interface.cpp.s
-.PHONY : src/mg_interface.cpp.s
-
-src/multicam_track.o: src/multicam_track.cpp.o
-
-.PHONY : src/multicam_track.o
-
-# target to build an object file
-src/multicam_track.cpp.o:
-	$(MAKE) -f CMakeFiles/multicam_track.dir/build.make CMakeFiles/multicam_track.dir/src/multicam_track.cpp.o
-.PHONY : src/multicam_track.cpp.o
-
-src/multicam_track.i: src/multicam_track.cpp.i
-
-.PHONY : src/multicam_track.i
-
-# target to preprocess a source file
-src/multicam_track.cpp.i:
-	$(MAKE) -f CMakeFiles/multicam_track.dir/build.make CMakeFiles/multicam_track.dir/src/multicam_track.cpp.i
-.PHONY : src/multicam_track.cpp.i
-
-src/multicam_track.s: src/multicam_track.cpp.s
-
-.PHONY : src/multicam_track.s
-
-# target to generate assembly for a file
-src/multicam_track.cpp.s:
-	$(MAKE) -f CMakeFiles/multicam_track.dir/build.make CMakeFiles/multicam_track.dir/src/multicam_track.cpp.s
-.PHONY : src/multicam_track.cpp.s
-
-src/multimesh_spawner.o: src/multimesh_spawner.cpp.o
-
-.PHONY : src/multimesh_spawner.o
-
-# target to build an object file
-src/multimesh_spawner.cpp.o:
-	$(MAKE) -f CMakeFiles/multimesh_spawner.dir/build.make CMakeFiles/multimesh_spawner.dir/src/multimesh_spawner.cpp.o
-.PHONY : src/multimesh_spawner.cpp.o
-
-src/multimesh_spawner.i: src/multimesh_spawner.cpp.i
-
-.PHONY : src/multimesh_spawner.i
-
-# target to preprocess a source file
-src/multimesh_spawner.cpp.i:
-	$(MAKE) -f CMakeFiles/multimesh_spawner.dir/build.make CMakeFiles/multimesh_spawner.dir/src/multimesh_spawner.cpp.i
-.PHONY : src/multimesh_spawner.cpp.i
-
-src/multimesh_spawner.s: src/multimesh_spawner.cpp.s
-
-.PHONY : src/multimesh_spawner.s
-
-# target to generate assembly for a file
-src/multimesh_spawner.cpp.s:
-	$(MAKE) -f CMakeFiles/multimesh_spawner.dir/build.make CMakeFiles/multimesh_spawner.dir/src/multimesh_spawner.cpp.s
-.PHONY : src/multimesh_spawner.cpp.s
-
-src/multiobject_multicam_track.o: src/multiobject_multicam_track.cpp.o
-
-.PHONY : src/multiobject_multicam_track.o
-
-# target to build an object file
-src/multiobject_multicam_track.cpp.o:
-	$(MAKE) -f CMakeFiles/multiobject_multicam_track.dir/build.make CMakeFiles/multiobject_multicam_track.dir/src/multiobject_multicam_track.cpp.o
-.PHONY : src/multiobject_multicam_track.cpp.o
-
-src/multiobject_multicam_track.i: src/multiobject_multicam_track.cpp.i
-
-.PHONY : src/multiobject_multicam_track.i
-
-# target to preprocess a source file
-src/multiobject_multicam_track.cpp.i:
-	$(MAKE) -f CMakeFiles/multiobject_multicam_track.dir/build.make CMakeFiles/multiobject_multicam_track.dir/src/multiobject_multicam_track.cpp.i
-.PHONY : src/multiobject_multicam_track.cpp.i
-
-src/multiobject_multicam_track.s: src/multiobject_multicam_track.cpp.s
-
-.PHONY : src/multiobject_multicam_track.s
-
-# target to generate assembly for a file
-src/multiobject_multicam_track.cpp.s:
-	$(MAKE) -f CMakeFiles/multiobject_multicam_track.dir/build.make CMakeFiles/multiobject_multicam_track.dir/src/multiobject_multicam_track.cpp.s
-.PHONY : src/multiobject_multicam_track.cpp.s
-
-src/object_detection_demo.o: src/object_detection_demo.cpp.o
-
-.PHONY : src/object_detection_demo.o
-
-# target to build an object file
-src/object_detection_demo.cpp.o:
-	$(MAKE) -f CMakeFiles/object_detection_demo.dir/build.make CMakeFiles/object_detection_demo.dir/src/object_detection_demo.cpp.o
-.PHONY : src/object_detection_demo.cpp.o
-
-src/object_detection_demo.i: src/object_detection_demo.cpp.i
-
-.PHONY : src/object_detection_demo.i
-
-# target to preprocess a source file
-src/object_detection_demo.cpp.i:
-	$(MAKE) -f CMakeFiles/object_detection_demo.dir/build.make CMakeFiles/object_detection_demo.dir/src/object_detection_demo.cpp.i
-.PHONY : src/object_detection_demo.cpp.i
-
-src/object_detection_demo.s: src/object_detection_demo.cpp.s
-
-.PHONY : src/object_detection_demo.s
-
-# target to generate assembly for a file
-src/object_detection_demo.cpp.s:
-	$(MAKE) -f CMakeFiles/object_detection_demo.dir/build.make CMakeFiles/object_detection_demo.dir/src/object_detection_demo.cpp.s
-.PHONY : src/object_detection_demo.cpp.s
-
-src/pcl_bagpublisher.o: src/pcl_bagpublisher.cpp.o
-
-.PHONY : src/pcl_bagpublisher.o
-
-# target to build an object file
-src/pcl_bagpublisher.cpp.o:
-	$(MAKE) -f CMakeFiles/pcl_bagpublisher.dir/build.make CMakeFiles/pcl_bagpublisher.dir/src/pcl_bagpublisher.cpp.o
-.PHONY : src/pcl_bagpublisher.cpp.o
-
-src/pcl_bagpublisher.i: src/pcl_bagpublisher.cpp.i
-
-.PHONY : src/pcl_bagpublisher.i
-
-# target to preprocess a source file
-src/pcl_bagpublisher.cpp.i:
-	$(MAKE) -f CMakeFiles/pcl_bagpublisher.dir/build.make CMakeFiles/pcl_bagpublisher.dir/src/pcl_bagpublisher.cpp.i
-.PHONY : src/pcl_bagpublisher.cpp.i
-
-src/pcl_bagpublisher.s: src/pcl_bagpublisher.cpp.s
-
-.PHONY : src/pcl_bagpublisher.s
-
-# target to generate assembly for a file
-src/pcl_bagpublisher.cpp.s:
-	$(MAKE) -f CMakeFiles/pcl_bagpublisher.dir/build.make CMakeFiles/pcl_bagpublisher.dir/src/pcl_bagpublisher.cpp.s
-.PHONY : src/pcl_bagpublisher.cpp.s
-
-src/pick_place.o: src/pick_place.cpp.o
-
-.PHONY : src/pick_place.o
-
-# target to build an object file
-src/pick_place.cpp.o:
-	$(MAKE) -f CMakeFiles/pick_place.dir/build.make CMakeFiles/pick_place.dir/src/pick_place.cpp.o
-.PHONY : src/pick_place.cpp.o
-
-src/pick_place.i: src/pick_place.cpp.i
-
-.PHONY : src/pick_place.i
-
-# target to preprocess a source file
-src/pick_place.cpp.i:
-	$(MAKE) -f CMakeFiles/pick_place.dir/build.make CMakeFiles/pick_place.dir/src/pick_place.cpp.i
-.PHONY : src/pick_place.cpp.i
-
-src/pick_place.s: src/pick_place.cpp.s
-
-.PHONY : src/pick_place.s
-
-# target to generate assembly for a file
-src/pick_place.cpp.s:
-	$(MAKE) -f CMakeFiles/pick_place.dir/build.make CMakeFiles/pick_place.dir/src/pick_place.cpp.s
-.PHONY : src/pick_place.cpp.s
-
-src/test_smart_pickplace.o: src/test_smart_pickplace.cpp.o
-
-.PHONY : src/test_smart_pickplace.o
-
-# target to build an object file
-src/test_smart_pickplace.cpp.o:
-	$(MAKE) -f CMakeFiles/test_smart_pickplace.dir/build.make CMakeFiles/test_smart_pickplace.dir/src/test_smart_pickplace.cpp.o
-.PHONY : src/test_smart_pickplace.cpp.o
-
-src/test_smart_pickplace.i: src/test_smart_pickplace.cpp.i
-
-.PHONY : src/test_smart_pickplace.i
-
-# target to preprocess a source file
-src/test_smart_pickplace.cpp.i:
-	$(MAKE) -f CMakeFiles/test_smart_pickplace.dir/build.make CMakeFiles/test_smart_pickplace.dir/src/test_smart_pickplace.cpp.i
-.PHONY : src/test_smart_pickplace.cpp.i
-
-src/test_smart_pickplace.s: src/test_smart_pickplace.cpp.s
-
-.PHONY : src/test_smart_pickplace.s
-
-# target to generate assembly for a file
-src/test_smart_pickplace.cpp.s:
-	$(MAKE) -f CMakeFiles/test_smart_pickplace.dir/build.make CMakeFiles/test_smart_pickplace.dir/src/test_smart_pickplace.cpp.s
-.PHONY : src/test_smart_pickplace.cpp.s
-
-src/testing_pickplace_server.o: src/testing_pickplace_server.cpp.o
-
-.PHONY : src/testing_pickplace_server.o
-
-# target to build an object file
-src/testing_pickplace_server.cpp.o:
-	$(MAKE) -f CMakeFiles/testing_pickplace_server.dir/build.make CMakeFiles/testing_pickplace_server.dir/src/testing_pickplace_server.cpp.o
-.PHONY : src/testing_pickplace_server.cpp.o
-
-src/testing_pickplace_server.i: src/testing_pickplace_server.cpp.i
-
-.PHONY : src/testing_pickplace_server.i
-
-# target to preprocess a source file
-src/testing_pickplace_server.cpp.i:
-	$(MAKE) -f CMakeFiles/testing_pickplace_server.dir/build.make CMakeFiles/testing_pickplace_server.dir/src/testing_pickplace_server.cpp.i
-.PHONY : src/testing_pickplace_server.cpp.i
-
-src/testing_pickplace_server.s: src/testing_pickplace_server.cpp.s
-
-.PHONY : src/testing_pickplace_server.s
-
-# target to generate assembly for a file
-src/testing_pickplace_server.cpp.s:
-	$(MAKE) -f CMakeFiles/testing_pickplace_server.dir/build.make CMakeFiles/testing_pickplace_server.dir/src/testing_pickplace_server.cpp.s
-.PHONY : src/testing_pickplace_server.cpp.s
-
-src/track_object.o: src/track_object.cpp.o
-
-.PHONY : src/track_object.o
-
-# target to build an object file
-src/track_object.cpp.o:
-	$(MAKE) -f CMakeFiles/track_object.dir/build.make CMakeFiles/track_object.dir/src/track_object.cpp.o
-.PHONY : src/track_object.cpp.o
-
-src/track_object.i: src/track_object.cpp.i
-
-.PHONY : src/track_object.i
-
-# target to preprocess a source file
-src/track_object.cpp.i:
-	$(MAKE) -f CMakeFiles/track_object.dir/build.make CMakeFiles/track_object.dir/src/track_object.cpp.i
-.PHONY : src/track_object.cpp.i
-
-src/track_object.s: src/track_object.cpp.s
-
-.PHONY : src/track_object.s
-
-# target to generate assembly for a file
-src/track_object.cpp.s:
-	$(MAKE) -f CMakeFiles/track_object.dir/build.make CMakeFiles/track_object.dir/src/track_object.cpp.s
-.PHONY : src/track_object.cpp.s
 
 src/triplet_detection.o: src/triplet_detection.cpp.o
 
@@ -2799,19 +2159,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... eight_mesh_spawner"
-	@echo "... multimesh_spawner"
 	@echo "... cam_tripod_spawner"
-	@echo "... pcl_bagpublisher"
 	@echo "... triplet_detection"
-	@echo "... testing_pickplace_server"
-	@echo "... multicam_track"
-	@echo "... cloud_merger_worldframe"
-	@echo "... icp2_node"
-	@echo "... icp_node"
-	@echo "... object_detection_demo"
-	@echo "... depthcam_demo"
-	@echo "... gazebo_pick"
-	@echo "... mg_interface"
 	@echo "... my_services_generate_messages_py"
 	@echo "... my_services_generate_messages_lisp"
 	@echo "... control_msgs_generate_messages_lisp"
@@ -2882,7 +2231,6 @@ help:
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... actionlib_generate_messages_nodejs"
-	@echo "... test_smart_pickplace"
 	@echo "... shape_msgs_generate_messages_lisp"
 	@echo "... trajectory_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_py"
@@ -2899,7 +2247,6 @@ help:
 	@echo "... object_recognition_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_eus"
 	@echo "... object_recognition_msgs_generate_messages_nodejs"
-	@echo "... multiobject_multicam_track"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... octomap_msgs_generate_messages_cpp"
 	@echo "... octomap_msgs_generate_messages_lisp"
@@ -2910,7 +2257,6 @@ help:
 	@echo "... bond_generate_messages_nodejs"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... tf_generate_messages_cpp"
-	@echo "... cloud_merger"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... my_services_generate_messages_eus"
 	@echo "... shape_msgs_generate_messages_py"
@@ -2930,7 +2276,6 @@ help:
 	@echo "... object_recognition_msgs_generate_messages_py"
 	@echo "... nodelet_generate_messages_nodejs"
 	@echo "... bond_generate_messages_lisp"
-	@echo "... pick_place"
 	@echo "... bond_generate_messages_py"
 	@echo "... bond_generate_messages_eus"
 	@echo "... graph_msgs_generate_messages_nodejs"
@@ -2948,7 +2293,6 @@ help:
 	@echo "... pcl_msgs_generate_messages_py"
 	@echo "... franka_gripper_generate_messages_cpp"
 	@echo "... topic_tools_generate_messages_eus"
-	@echo "... track_object"
 	@echo "... topic_tools_generate_messages_nodejs"
 	@echo "... graph_msgs_generate_messages_cpp"
 	@echo "... topic_tools_generate_messages_lisp"
@@ -2966,57 +2310,9 @@ help:
 	@echo "... src/cam_tripod_spawner.o"
 	@echo "... src/cam_tripod_spawner.i"
 	@echo "... src/cam_tripod_spawner.s"
-	@echo "... src/cloud_merger.o"
-	@echo "... src/cloud_merger.i"
-	@echo "... src/cloud_merger.s"
-	@echo "... src/cloud_merger_worldframe.o"
-	@echo "... src/cloud_merger_worldframe.i"
-	@echo "... src/cloud_merger_worldframe.s"
-	@echo "... src/depthcam_demo.o"
-	@echo "... src/depthcam_demo.i"
-	@echo "... src/depthcam_demo.s"
 	@echo "... src/eight_mesh_spawner.o"
 	@echo "... src/eight_mesh_spawner.i"
 	@echo "... src/eight_mesh_spawner.s"
-	@echo "... src/gazebo_pick.o"
-	@echo "... src/gazebo_pick.i"
-	@echo "... src/gazebo_pick.s"
-	@echo "... src/icp2_node.o"
-	@echo "... src/icp2_node.i"
-	@echo "... src/icp2_node.s"
-	@echo "... src/icp_node.o"
-	@echo "... src/icp_node.i"
-	@echo "... src/icp_node.s"
-	@echo "... src/mg_interface.o"
-	@echo "... src/mg_interface.i"
-	@echo "... src/mg_interface.s"
-	@echo "... src/multicam_track.o"
-	@echo "... src/multicam_track.i"
-	@echo "... src/multicam_track.s"
-	@echo "... src/multimesh_spawner.o"
-	@echo "... src/multimesh_spawner.i"
-	@echo "... src/multimesh_spawner.s"
-	@echo "... src/multiobject_multicam_track.o"
-	@echo "... src/multiobject_multicam_track.i"
-	@echo "... src/multiobject_multicam_track.s"
-	@echo "... src/object_detection_demo.o"
-	@echo "... src/object_detection_demo.i"
-	@echo "... src/object_detection_demo.s"
-	@echo "... src/pcl_bagpublisher.o"
-	@echo "... src/pcl_bagpublisher.i"
-	@echo "... src/pcl_bagpublisher.s"
-	@echo "... src/pick_place.o"
-	@echo "... src/pick_place.i"
-	@echo "... src/pick_place.s"
-	@echo "... src/test_smart_pickplace.o"
-	@echo "... src/test_smart_pickplace.i"
-	@echo "... src/test_smart_pickplace.s"
-	@echo "... src/testing_pickplace_server.o"
-	@echo "... src/testing_pickplace_server.i"
-	@echo "... src/testing_pickplace_server.s"
-	@echo "... src/track_object.o"
-	@echo "... src/track_object.i"
-	@echo "... src/track_object.s"
 	@echo "... src/triplet_detection.o"
 	@echo "... src/triplet_detection.i"
 	@echo "... src/triplet_detection.s"

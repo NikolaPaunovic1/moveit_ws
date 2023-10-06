@@ -4,11 +4,7 @@
 /home/nikola/ws_moveit/build/my_services/CMakeFiles/rebuild_cache.dir
 /home/nikola/ws_moveit/build/my_services/CMakeFiles/edit_cache.dir
 /home/nikola/ws_moveit/build/my_services/CMakeFiles/retrigger_pick_place.dir
-/home/nikola/ws_moveit/build/my_services/CMakeFiles/smart_pickplace_server.dir
-/home/nikola/ws_moveit/build/my_services/CMakeFiles/Object_PickPlace_Server.dir
-/home/nikola/ws_moveit/build/my_services/CMakeFiles/PickPlace_Action_Server.dir
 /home/nikola/ws_moveit/build/my_services/CMakeFiles/Pose_Finder_Server.dir
-/home/nikola/ws_moveit/build/my_services/CMakeFiles/Object_Detection_Server.dir
 /home/nikola/ws_moveit/build/my_services/CMakeFiles/my_services_genpy.dir
 /home/nikola/ws_moveit/build/my_services/CMakeFiles/my_services_generate_messages_py.dir
 /home/nikola/ws_moveit/build/my_services/CMakeFiles/my_services_genlisp.dir

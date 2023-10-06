@@ -73,55 +73,55 @@ CMakeFiles/my_services_generate_messages_nodejs: /home/nikola/ws_moveit/devel/.p
 
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceAction.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionFeedback.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceFeedback.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionResult.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceResult.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceGoal.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionGoal.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceResult.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceFeedback.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceGoal.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionFeedback.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionGoal.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceAction.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from my_services/PickPlaceAction.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceAction.msg -Imy_services:/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_services -o /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg
 
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionGoal.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionGoal.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionGoal.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceGoal.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionGoal.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceGoal.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from my_services/PickPlaceActionGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionGoal.msg -Imy_services:/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_services -o /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg
 
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionResult.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionResult.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionResult.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceResult.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from my_services/PickPlaceActionResult.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionResult.msg -Imy_services:/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_services -o /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg
 
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionFeedback.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionFeedback.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionFeedback.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceFeedback.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionFeedback.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceFeedback.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from my_services/PickPlaceActionFeedback.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceActionFeedback.msg -Imy_services:/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_services -o /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg
 
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceGoal.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceGoal.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlaceGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from my_services/PickPlaceGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlaceGoal.msg -Imy_services:/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_services -o /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg
 
@@ -137,55 +137,55 @@ CMakeFiles/my_services_generate_messages_nodejs: /home/nikola/ws_moveit/devel/.p
 
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Action.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionGoal.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Result.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionResult.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Goal.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Feedback.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionFeedback.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionResult.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionFeedback.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Result.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Goal.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionGoal.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Action.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from my_services/PickPlace2Action.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Action.msg -Imy_services:/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_services -o /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg
 
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionGoal.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionGoal.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionGoal.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Goal.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionGoal.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Goal.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from my_services/PickPlace2ActionGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionGoal.msg -Imy_services:/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_services -o /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg
 
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionResult.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionResult.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionResult.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Result.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from my_services/PickPlace2ActionResult.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionResult.msg -Imy_services:/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_services -o /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg
 
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionFeedback.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionFeedback.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionFeedback.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Feedback.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2ActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from my_services/PickPlace2ActionFeedback.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2ActionFeedback.msg -Imy_services:/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_services -o /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg
 
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Goal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Goal.js: /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Goal.msg
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Goal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Goal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Goal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg/PickPlace2Goal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from my_services/PickPlace2Goal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg/PickPlace2Goal.msg -Imy_services:/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_services -o /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/msg
 
@@ -201,17 +201,17 @@ CMakeFiles/my_services_generate_messages_nodejs: /home/nikola/ws_moveit/devel/.p
 
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/ObjectPositionService.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/ObjectPositionService.js: /home/nikola/ws_moveit/src/my_services/srv/ObjectPositionService.srv
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/ObjectPositionService.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/ObjectPositionService.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/ObjectPositionService.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/ObjectPositionService.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from my_services/ObjectPositionService.srv"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nikola/ws_moveit/src/my_services/srv/ObjectPositionService.srv -Imy_services:/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_services -o /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv
 
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/PoseFinderService.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/PoseFinderService.js: /home/nikola/ws_moveit/src/my_services/srv/PoseFinderService.srv
+/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/PoseFinderService.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/PoseFinderService.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/PoseFinderService.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv/PoseFinderService.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from my_services/PoseFinderService.srv"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nikola/ws_moveit/src/my_services/srv/PoseFinderService.srv -Imy_services:/home/nikola/ws_moveit/devel/.private/my_services/share/my_services/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_services -o /home/nikola/ws_moveit/devel/.private/my_services/share/gennodejs/ros/my_services/srv
 

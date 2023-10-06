@@ -415,11 +415,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/retrigger_pick_place.dir/DependInfo.cmake"
-  "CMakeFiles/smart_pickplace_server.dir/DependInfo.cmake"
-  "CMakeFiles/Object_PickPlace_Server.dir/DependInfo.cmake"
-  "CMakeFiles/PickPlace_Action_Server.dir/DependInfo.cmake"
   "CMakeFiles/Pose_Finder_Server.dir/DependInfo.cmake"
-  "CMakeFiles/Object_Detection_Server.dir/DependInfo.cmake"
   "CMakeFiles/my_services_genpy.dir/DependInfo.cmake"
   "CMakeFiles/my_services_generate_messages_py.dir/DependInfo.cmake"
   "CMakeFiles/my_services_genlisp.dir/DependInfo.cmake"

@@ -54,11 +54,7 @@ CMAKE_BINARY_DIR = /home/nikola/ws_moveit/build/my_services
 
 # The main recursive "all" target.
 all: CMakeFiles/retrigger_pick_place.dir/all
-all: CMakeFiles/smart_pickplace_server.dir/all
-all: CMakeFiles/Object_PickPlace_Server.dir/all
-all: CMakeFiles/PickPlace_Action_Server.dir/all
 all: CMakeFiles/Pose_Finder_Server.dir/all
-all: CMakeFiles/Object_Detection_Server.dir/all
 all: CMakeFiles/my_services_generate_messages.dir/all
 all: gtest/all
 
@@ -71,11 +67,7 @@ preinstall: gtest/preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/retrigger_pick_place.dir/clean
-clean: CMakeFiles/smart_pickplace_server.dir/clean
-clean: CMakeFiles/Object_PickPlace_Server.dir/clean
-clean: CMakeFiles/PickPlace_Action_Server.dir/clean
 clean: CMakeFiles/Pose_Finder_Server.dir/clean
-clean: CMakeFiles/Object_Detection_Server.dir/clean
 clean: CMakeFiles/my_services_genpy.dir/clean
 clean: CMakeFiles/my_services_generate_messages_py.dir/clean
 clean: CMakeFiles/my_services_genlisp.dir/clean
@@ -306,12 +298,12 @@ CMakeFiles/retrigger_pick_place.dir/all: CMakeFiles/my_services_generate_message
 CMakeFiles/retrigger_pick_place.dir/all: CMakeFiles/my_services_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/retrigger_pick_place.dir/build.make CMakeFiles/retrigger_pick_place.dir/depend
 	$(MAKE) -f CMakeFiles/retrigger_pick_place.dir/build.make CMakeFiles/retrigger_pick_place.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=97,98 "Built target retrigger_pick_place"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=94,95 "Built target retrigger_pick_place"
 .PHONY : CMakeFiles/retrigger_pick_place.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/retrigger_pick_place.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 83
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 85
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/retrigger_pick_place.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 0
 .PHONY : CMakeFiles/retrigger_pick_place.dir/rule
@@ -327,99 +319,6 @@ CMakeFiles/retrigger_pick_place.dir/clean:
 .PHONY : CMakeFiles/retrigger_pick_place.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/smart_pickplace_server.dir
-
-# All Build rule for target.
-CMakeFiles/smart_pickplace_server.dir/all: CMakeFiles/my_services_generate_messages_py.dir/all
-CMakeFiles/smart_pickplace_server.dir/all: CMakeFiles/my_services_generate_messages_lisp.dir/all
-CMakeFiles/smart_pickplace_server.dir/all: CMakeFiles/my_services_generate_messages_nodejs.dir/all
-CMakeFiles/smart_pickplace_server.dir/all: CMakeFiles/my_services_generate_messages_cpp.dir/all
-CMakeFiles/smart_pickplace_server.dir/all: CMakeFiles/my_services_generate_messages_eus.dir/all
-	$(MAKE) -f CMakeFiles/smart_pickplace_server.dir/build.make CMakeFiles/smart_pickplace_server.dir/depend
-	$(MAKE) -f CMakeFiles/smart_pickplace_server.dir/build.make CMakeFiles/smart_pickplace_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=99,100 "Built target smart_pickplace_server"
-.PHONY : CMakeFiles/smart_pickplace_server.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/smart_pickplace_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 83
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/smart_pickplace_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 0
-.PHONY : CMakeFiles/smart_pickplace_server.dir/rule
-
-# Convenience name for target.
-smart_pickplace_server: CMakeFiles/smart_pickplace_server.dir/rule
-
-.PHONY : smart_pickplace_server
-
-# clean rule for target.
-CMakeFiles/smart_pickplace_server.dir/clean:
-	$(MAKE) -f CMakeFiles/smart_pickplace_server.dir/build.make CMakeFiles/smart_pickplace_server.dir/clean
-.PHONY : CMakeFiles/smart_pickplace_server.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Object_PickPlace_Server.dir
-
-# All Build rule for target.
-CMakeFiles/Object_PickPlace_Server.dir/all: CMakeFiles/my_services_generate_messages_py.dir/all
-CMakeFiles/Object_PickPlace_Server.dir/all: CMakeFiles/my_services_generate_messages_lisp.dir/all
-CMakeFiles/Object_PickPlace_Server.dir/all: CMakeFiles/my_services_generate_messages_nodejs.dir/all
-CMakeFiles/Object_PickPlace_Server.dir/all: CMakeFiles/my_services_generate_messages_cpp.dir/all
-CMakeFiles/Object_PickPlace_Server.dir/all: CMakeFiles/my_services_generate_messages_eus.dir/all
-	$(MAKE) -f CMakeFiles/Object_PickPlace_Server.dir/build.make CMakeFiles/Object_PickPlace_Server.dir/depend
-	$(MAKE) -f CMakeFiles/Object_PickPlace_Server.dir/build.make CMakeFiles/Object_PickPlace_Server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=2,3 "Built target Object_PickPlace_Server"
-.PHONY : CMakeFiles/Object_PickPlace_Server.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Object_PickPlace_Server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 83
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Object_PickPlace_Server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 0
-.PHONY : CMakeFiles/Object_PickPlace_Server.dir/rule
-
-# Convenience name for target.
-Object_PickPlace_Server: CMakeFiles/Object_PickPlace_Server.dir/rule
-
-.PHONY : Object_PickPlace_Server
-
-# clean rule for target.
-CMakeFiles/Object_PickPlace_Server.dir/clean:
-	$(MAKE) -f CMakeFiles/Object_PickPlace_Server.dir/build.make CMakeFiles/Object_PickPlace_Server.dir/clean
-.PHONY : CMakeFiles/Object_PickPlace_Server.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/PickPlace_Action_Server.dir
-
-# All Build rule for target.
-CMakeFiles/PickPlace_Action_Server.dir/all: CMakeFiles/my_services_generate_messages_py.dir/all
-CMakeFiles/PickPlace_Action_Server.dir/all: CMakeFiles/my_services_generate_messages_lisp.dir/all
-CMakeFiles/PickPlace_Action_Server.dir/all: CMakeFiles/my_services_generate_messages_nodejs.dir/all
-CMakeFiles/PickPlace_Action_Server.dir/all: CMakeFiles/my_services_generate_messages_cpp.dir/all
-CMakeFiles/PickPlace_Action_Server.dir/all: CMakeFiles/my_services_generate_messages_eus.dir/all
-	$(MAKE) -f CMakeFiles/PickPlace_Action_Server.dir/build.make CMakeFiles/PickPlace_Action_Server.dir/depend
-	$(MAKE) -f CMakeFiles/PickPlace_Action_Server.dir/build.make CMakeFiles/PickPlace_Action_Server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=4,5 "Built target PickPlace_Action_Server"
-.PHONY : CMakeFiles/PickPlace_Action_Server.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/PickPlace_Action_Server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 83
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PickPlace_Action_Server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 0
-.PHONY : CMakeFiles/PickPlace_Action_Server.dir/rule
-
-# Convenience name for target.
-PickPlace_Action_Server: CMakeFiles/PickPlace_Action_Server.dir/rule
-
-.PHONY : PickPlace_Action_Server
-
-# clean rule for target.
-CMakeFiles/PickPlace_Action_Server.dir/clean:
-	$(MAKE) -f CMakeFiles/PickPlace_Action_Server.dir/build.make CMakeFiles/PickPlace_Action_Server.dir/clean
-.PHONY : CMakeFiles/PickPlace_Action_Server.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/Pose_Finder_Server.dir
 
 # All Build rule for target.
@@ -430,12 +329,12 @@ CMakeFiles/Pose_Finder_Server.dir/all: CMakeFiles/my_services_generate_messages_
 CMakeFiles/Pose_Finder_Server.dir/all: CMakeFiles/my_services_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/Pose_Finder_Server.dir/build.make CMakeFiles/Pose_Finder_Server.dir/depend
 	$(MAKE) -f CMakeFiles/Pose_Finder_Server.dir/build.make CMakeFiles/Pose_Finder_Server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=6,7 "Built target Pose_Finder_Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=1,2 "Built target Pose_Finder_Server"
 .PHONY : CMakeFiles/Pose_Finder_Server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Pose_Finder_Server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 83
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 85
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Pose_Finder_Server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 0
 .PHONY : CMakeFiles/Pose_Finder_Server.dir/rule
@@ -449,37 +348,6 @@ Pose_Finder_Server: CMakeFiles/Pose_Finder_Server.dir/rule
 CMakeFiles/Pose_Finder_Server.dir/clean:
 	$(MAKE) -f CMakeFiles/Pose_Finder_Server.dir/build.make CMakeFiles/Pose_Finder_Server.dir/clean
 .PHONY : CMakeFiles/Pose_Finder_Server.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Object_Detection_Server.dir
-
-# All Build rule for target.
-CMakeFiles/Object_Detection_Server.dir/all: CMakeFiles/my_services_generate_messages_py.dir/all
-CMakeFiles/Object_Detection_Server.dir/all: CMakeFiles/my_services_generate_messages_lisp.dir/all
-CMakeFiles/Object_Detection_Server.dir/all: CMakeFiles/my_services_generate_messages_nodejs.dir/all
-CMakeFiles/Object_Detection_Server.dir/all: CMakeFiles/my_services_generate_messages_cpp.dir/all
-CMakeFiles/Object_Detection_Server.dir/all: CMakeFiles/my_services_generate_messages_eus.dir/all
-	$(MAKE) -f CMakeFiles/Object_Detection_Server.dir/build.make CMakeFiles/Object_Detection_Server.dir/depend
-	$(MAKE) -f CMakeFiles/Object_Detection_Server.dir/build.make CMakeFiles/Object_Detection_Server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=1 "Built target Object_Detection_Server"
-.PHONY : CMakeFiles/Object_Detection_Server.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Object_Detection_Server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 82
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Object_Detection_Server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 0
-.PHONY : CMakeFiles/Object_Detection_Server.dir/rule
-
-# Convenience name for target.
-Object_Detection_Server: CMakeFiles/Object_Detection_Server.dir/rule
-
-.PHONY : Object_Detection_Server
-
-# clean rule for target.
-CMakeFiles/Object_Detection_Server.dir/clean:
-	$(MAKE) -f CMakeFiles/Object_Detection_Server.dir/build.make CMakeFiles/Object_Detection_Server.dir/clean
-.PHONY : CMakeFiles/Object_Detection_Server.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/my_services_genpy.dir
@@ -534,7 +402,7 @@ CMakeFiles/my_services_generate_messages_py.dir/all: CMakeFiles/_my_services_gen
 CMakeFiles/my_services_generate_messages_py.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 	$(MAKE) -f CMakeFiles/my_services_generate_messages_py.dir/build.make CMakeFiles/my_services_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/my_services_generate_messages_py.dir/build.make CMakeFiles/my_services_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96 "Built target my_services_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target my_services_generate_messages_py"
 .PHONY : CMakeFiles/my_services_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
@@ -607,7 +475,7 @@ CMakeFiles/my_services_generate_messages_lisp.dir/all: CMakeFiles/_my_services_g
 CMakeFiles/my_services_generate_messages_lisp.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f CMakeFiles/my_services_generate_messages_lisp.dir/build.make CMakeFiles/my_services_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/my_services_generate_messages_lisp.dir/build.make CMakeFiles/my_services_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63 "Built target my_services_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59 "Built target my_services_generate_messages_lisp"
 .PHONY : CMakeFiles/my_services_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -639,7 +507,7 @@ CMakeFiles/my_services_geneus.dir/all: CMakeFiles/my_services_generate_messages_
 
 # Build rule for subdir invocation for target.
 CMakeFiles/my_services_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/my_services_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 0
 .PHONY : CMakeFiles/my_services_geneus.dir/rule
@@ -801,7 +669,7 @@ CMakeFiles/my_services_gennodejs.dir/all: CMakeFiles/my_services_generate_messag
 
 # Build rule for subdir invocation for target.
 CMakeFiles/my_services_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/my_services_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 0
 .PHONY : CMakeFiles/my_services_gennodejs.dir/rule
@@ -967,7 +835,7 @@ CMakeFiles/my_services_generate_messages.dir/all: CMakeFiles/my_services_generat
 
 # Build rule for subdir invocation for target.
 CMakeFiles/my_services_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 81
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 83
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/my_services_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 0
 .PHONY : CMakeFiles/my_services_generate_messages.dir/rule
@@ -1197,12 +1065,12 @@ CMakeFiles/my_services_generate_messages_nodejs.dir/all: CMakeFiles/_my_services
 CMakeFiles/my_services_generate_messages_nodejs.dir/all: CMakeFiles/_my_services_generate_messages_check_deps_PickPlaceGoal.dir/all
 	$(MAKE) -f CMakeFiles/my_services_generate_messages_nodejs.dir/build.make CMakeFiles/my_services_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/my_services_generate_messages_nodejs.dir/build.make CMakeFiles/my_services_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=64,65,66,67,68,69,70,71,72,73,74,75,76,77,78 "Built target my_services_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75 "Built target my_services_generate_messages_nodejs"
 .PHONY : CMakeFiles/my_services_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/my_services_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/my_services_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 0
 .PHONY : CMakeFiles/my_services_generate_messages_nodejs.dir/rule
@@ -1702,7 +1570,7 @@ CMakeFiles/my_services_generate_messages_cpp.dir/all: CMakeFiles/_my_services_ge
 CMakeFiles/my_services_generate_messages_cpp.dir/all: CMakeFiles/_my_services_generate_messages_check_deps_PickPlaceGoal.dir/all
 	$(MAKE) -f CMakeFiles/my_services_generate_messages_cpp.dir/build.make CMakeFiles/my_services_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/my_services_generate_messages_cpp.dir/build.make CMakeFiles/my_services_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target my_services_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target my_services_generate_messages_cpp"
 .PHONY : CMakeFiles/my_services_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3800,12 +3668,12 @@ CMakeFiles/my_services_generate_messages_eus.dir/all: CMakeFiles/_my_services_ge
 CMakeFiles/my_services_generate_messages_eus.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/my_services_generate_messages_eus.dir/build.make CMakeFiles/my_services_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/my_services_generate_messages_eus.dir/build.make CMakeFiles/my_services_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target my_services_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43 "Built target my_services_generate_messages_eus"
 .PHONY : CMakeFiles/my_services_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/my_services_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/my_services_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikola/ws_moveit/build/my_services/CMakeFiles 0
 .PHONY : CMakeFiles/my_services_generate_messages_eus.dir/rule
@@ -4854,7 +4722,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=10,11 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=5,6 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4881,7 +4749,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=8,9 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=3,4 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4908,7 +4776,7 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=14,15 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=9,10 "Built target gtest_main"
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4935,7 +4803,7 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=12,13 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikola/ws_moveit/build/my_services/CMakeFiles --progress-num=7,8 "Built target gtest"
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.

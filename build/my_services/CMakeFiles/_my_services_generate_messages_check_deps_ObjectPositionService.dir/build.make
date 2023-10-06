@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/nikola/ws_moveit/build/my_services
 include CMakeFiles/_my_services_generate_messages_check_deps_ObjectPositionService.dir/progress.make
 
 CMakeFiles/_my_services_generate_messages_check_deps_ObjectPositionService:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py my_services /home/nikola/ws_moveit/src/my_services/srv/ObjectPositionService.srv geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Pose
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py my_services /home/nikola/ws_moveit/src/my_services/srv/ObjectPositionService.srv geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Point
 
 _my_services_generate_messages_check_deps_ObjectPositionService: CMakeFiles/_my_services_generate_messages_check_deps_ObjectPositionService
 _my_services_generate_messages_check_deps_ObjectPositionService: CMakeFiles/_my_services_generate_messages_check_deps_ObjectPositionService.dir/build.make

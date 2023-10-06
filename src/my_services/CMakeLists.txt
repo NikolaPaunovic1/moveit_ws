@@ -231,18 +231,18 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-add_executable(Object_Detection_Server src/Object_Detection_Server.cpp)
+# add_executable(Object_Detection_Server src/Object_Detection_Server.cpp)
  
-target_link_libraries(
-  Object_Detection_Server
-  ${catkin_LIBRARIES}
-  ${OpenCV_LIBRARIES}
-)
+# target_link_libraries(
+#   Object_Detection_Server
+#   ${catkin_LIBRARIES}
+#   ${OpenCV_LIBRARIES}
+# )
  
-add_dependencies(
-  Object_Detection_Server
-  ${my_services_EXPORTED_TARGETS}
-)
+# add_dependencies(
+#   Object_Detection_Server
+#   ${my_services_EXPORTED_TARGETS}
+# )
 
 add_executable(Pose_Finder_Server src/Pose_Finder_Server.cpp)
  
@@ -257,44 +257,44 @@ add_dependencies(
   ${my_services_EXPORTED_TARGETS}
 )
 
-add_executable(PickPlace_Action_Server src/PickPlace_Action_Server.cpp)
+# add_executable(PickPlace_Action_Server src/PickPlace_Action_Server.cpp)
  
-target_link_libraries(
-  PickPlace_Action_Server
-  ${catkin_LIBRARIES}
-  ${OpenCV_LIBRARIES}
-)
+# target_link_libraries(
+#   PickPlace_Action_Server
+#   ${catkin_LIBRARIES}
+#   ${OpenCV_LIBRARIES}
+# )
  
-add_dependencies(
-  PickPlace_Action_Server
-  ${my_services_EXPORTED_TARGETS}
-)
+# add_dependencies(
+#   PickPlace_Action_Server
+#   ${my_services_EXPORTED_TARGETS}
+# )
 
-add_executable(Object_PickPlace_Server src/Object_PickPlace_Server.cpp)
+# add_executable(Object_PickPlace_Server src/Object_PickPlace_Server.cpp)
  
-target_link_libraries(
-  Object_PickPlace_Server
-  ${catkin_LIBRARIES}
-  ${OpenCV_LIBRARIES}
-)
+# target_link_libraries(
+#   Object_PickPlace_Server
+#   ${catkin_LIBRARIES}
+#   ${OpenCV_LIBRARIES}
+# )
  
-add_dependencies(
-  Object_PickPlace_Server
-  ${my_services_EXPORTED_TARGETS}
-)
+# add_dependencies(
+#   Object_PickPlace_Server
+#   ${my_services_EXPORTED_TARGETS}
+# )
 
-add_executable(smart_pickplace_server src/smart_pickplace_server.cpp)
+# add_executable(smart_pickplace_server src/smart_pickplace_server.cpp)
  
-target_link_libraries(
-  smart_pickplace_server
-  ${catkin_LIBRARIES}
-  ${OpenCV_LIBRARIES}
-)
+# target_link_libraries(
+#   smart_pickplace_server
+#   ${catkin_LIBRARIES}
+#   ${OpenCV_LIBRARIES}
+# )
  
-add_dependencies(
-  smart_pickplace_server
-  ${my_services_EXPORTED_TARGETS}
-)
+# add_dependencies(
+#   smart_pickplace_server
+#   ${my_services_EXPORTED_TARGETS}
+# )
 
 add_executable(retrigger_pick_place src/retrigger_pick_place.cpp)
  

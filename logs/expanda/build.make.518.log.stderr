@@ -1,0 +1,12 @@
+make[2]: *** No rule to make target '/home/nikola/ws_moveit/src/expanda/src/multimesh_spawner.cpp', needed by 'CMakeFiles/multimesh_spawner.dir/src/multimesh_spawner.cpp.o'.  Stop.
+make[2]: *** No rule to make target '/home/nikola/ws_moveit/src/expanda/src/pcl_bagpublisher.cpp', needed by 'CMakeFiles/pcl_bagpublisher.dir/src/pcl_bagpublisher.cpp.o'.  Stop.
+make[2]: *** No rule to make target '/home/nikola/ws_moveit/src/expanda/src/multicam_track.cpp', needed by 'CMakeFiles/multicam_track.dir/src/multicam_track.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:336: CMakeFiles/multimesh_spawner.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:390: CMakeFiles/pcl_bagpublisher.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:471: CMakeFiles/multicam_track.dir/all] Error 2
+make[2]: *** No rule to make target '/home/nikola/ws_moveit/src/expanda/src/testing_pickplace_server.cpp', needed by 'CMakeFiles/testing_pickplace_server.dir/src/testing_pickplace_server.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:444: CMakeFiles/testing_pickplace_server.dir/all] Error 2
+make[2]: *** No rule to make target '/home/nikola/ws_moveit/src/expanda/src/cloud_merger_worldframe.cpp', needed by 'CMakeFiles/cloud_merger_worldframe.dir/src/cloud_merger_worldframe.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:498: CMakeFiles/cloud_merger_worldframe.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

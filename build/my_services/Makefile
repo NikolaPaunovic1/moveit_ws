@@ -181,45 +181,6 @@ retrigger_pick_place/fast:
 .PHONY : retrigger_pick_place/fast
 
 #=============================================================================
-# Target rules for targets named smart_pickplace_server
-
-# Build rule for target.
-smart_pickplace_server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 smart_pickplace_server
-.PHONY : smart_pickplace_server
-
-# fast build rule for target.
-smart_pickplace_server/fast:
-	$(MAKE) -f CMakeFiles/smart_pickplace_server.dir/build.make CMakeFiles/smart_pickplace_server.dir/build
-.PHONY : smart_pickplace_server/fast
-
-#=============================================================================
-# Target rules for targets named Object_PickPlace_Server
-
-# Build rule for target.
-Object_PickPlace_Server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Object_PickPlace_Server
-.PHONY : Object_PickPlace_Server
-
-# fast build rule for target.
-Object_PickPlace_Server/fast:
-	$(MAKE) -f CMakeFiles/Object_PickPlace_Server.dir/build.make CMakeFiles/Object_PickPlace_Server.dir/build
-.PHONY : Object_PickPlace_Server/fast
-
-#=============================================================================
-# Target rules for targets named PickPlace_Action_Server
-
-# Build rule for target.
-PickPlace_Action_Server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 PickPlace_Action_Server
-.PHONY : PickPlace_Action_Server
-
-# fast build rule for target.
-PickPlace_Action_Server/fast:
-	$(MAKE) -f CMakeFiles/PickPlace_Action_Server.dir/build.make CMakeFiles/PickPlace_Action_Server.dir/build
-.PHONY : PickPlace_Action_Server/fast
-
-#=============================================================================
 # Target rules for targets named Pose_Finder_Server
 
 # Build rule for target.
@@ -231,19 +192,6 @@ Pose_Finder_Server: cmake_check_build_system
 Pose_Finder_Server/fast:
 	$(MAKE) -f CMakeFiles/Pose_Finder_Server.dir/build.make CMakeFiles/Pose_Finder_Server.dir/build
 .PHONY : Pose_Finder_Server/fast
-
-#=============================================================================
-# Target rules for targets named Object_Detection_Server
-
-# Build rule for target.
-Object_Detection_Server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Object_Detection_Server
-.PHONY : Object_Detection_Server
-
-# fast build rule for target.
-Object_Detection_Server/fast:
-	$(MAKE) -f CMakeFiles/Object_Detection_Server.dir/build.make CMakeFiles/Object_Detection_Server.dir/build
-.PHONY : Object_Detection_Server/fast
 
 #=============================================================================
 # Target rules for targets named my_services_genpy
@@ -2351,87 +2299,6 @@ gtest/fast:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-src/Object_Detection_Server.o: src/Object_Detection_Server.cpp.o
-
-.PHONY : src/Object_Detection_Server.o
-
-# target to build an object file
-src/Object_Detection_Server.cpp.o:
-	$(MAKE) -f CMakeFiles/Object_Detection_Server.dir/build.make CMakeFiles/Object_Detection_Server.dir/src/Object_Detection_Server.cpp.o
-.PHONY : src/Object_Detection_Server.cpp.o
-
-src/Object_Detection_Server.i: src/Object_Detection_Server.cpp.i
-
-.PHONY : src/Object_Detection_Server.i
-
-# target to preprocess a source file
-src/Object_Detection_Server.cpp.i:
-	$(MAKE) -f CMakeFiles/Object_Detection_Server.dir/build.make CMakeFiles/Object_Detection_Server.dir/src/Object_Detection_Server.cpp.i
-.PHONY : src/Object_Detection_Server.cpp.i
-
-src/Object_Detection_Server.s: src/Object_Detection_Server.cpp.s
-
-.PHONY : src/Object_Detection_Server.s
-
-# target to generate assembly for a file
-src/Object_Detection_Server.cpp.s:
-	$(MAKE) -f CMakeFiles/Object_Detection_Server.dir/build.make CMakeFiles/Object_Detection_Server.dir/src/Object_Detection_Server.cpp.s
-.PHONY : src/Object_Detection_Server.cpp.s
-
-src/Object_PickPlace_Server.o: src/Object_PickPlace_Server.cpp.o
-
-.PHONY : src/Object_PickPlace_Server.o
-
-# target to build an object file
-src/Object_PickPlace_Server.cpp.o:
-	$(MAKE) -f CMakeFiles/Object_PickPlace_Server.dir/build.make CMakeFiles/Object_PickPlace_Server.dir/src/Object_PickPlace_Server.cpp.o
-.PHONY : src/Object_PickPlace_Server.cpp.o
-
-src/Object_PickPlace_Server.i: src/Object_PickPlace_Server.cpp.i
-
-.PHONY : src/Object_PickPlace_Server.i
-
-# target to preprocess a source file
-src/Object_PickPlace_Server.cpp.i:
-	$(MAKE) -f CMakeFiles/Object_PickPlace_Server.dir/build.make CMakeFiles/Object_PickPlace_Server.dir/src/Object_PickPlace_Server.cpp.i
-.PHONY : src/Object_PickPlace_Server.cpp.i
-
-src/Object_PickPlace_Server.s: src/Object_PickPlace_Server.cpp.s
-
-.PHONY : src/Object_PickPlace_Server.s
-
-# target to generate assembly for a file
-src/Object_PickPlace_Server.cpp.s:
-	$(MAKE) -f CMakeFiles/Object_PickPlace_Server.dir/build.make CMakeFiles/Object_PickPlace_Server.dir/src/Object_PickPlace_Server.cpp.s
-.PHONY : src/Object_PickPlace_Server.cpp.s
-
-src/PickPlace_Action_Server.o: src/PickPlace_Action_Server.cpp.o
-
-.PHONY : src/PickPlace_Action_Server.o
-
-# target to build an object file
-src/PickPlace_Action_Server.cpp.o:
-	$(MAKE) -f CMakeFiles/PickPlace_Action_Server.dir/build.make CMakeFiles/PickPlace_Action_Server.dir/src/PickPlace_Action_Server.cpp.o
-.PHONY : src/PickPlace_Action_Server.cpp.o
-
-src/PickPlace_Action_Server.i: src/PickPlace_Action_Server.cpp.i
-
-.PHONY : src/PickPlace_Action_Server.i
-
-# target to preprocess a source file
-src/PickPlace_Action_Server.cpp.i:
-	$(MAKE) -f CMakeFiles/PickPlace_Action_Server.dir/build.make CMakeFiles/PickPlace_Action_Server.dir/src/PickPlace_Action_Server.cpp.i
-.PHONY : src/PickPlace_Action_Server.cpp.i
-
-src/PickPlace_Action_Server.s: src/PickPlace_Action_Server.cpp.s
-
-.PHONY : src/PickPlace_Action_Server.s
-
-# target to generate assembly for a file
-src/PickPlace_Action_Server.cpp.s:
-	$(MAKE) -f CMakeFiles/PickPlace_Action_Server.dir/build.make CMakeFiles/PickPlace_Action_Server.dir/src/PickPlace_Action_Server.cpp.s
-.PHONY : src/PickPlace_Action_Server.cpp.s
-
 src/Pose_Finder_Server.o: src/Pose_Finder_Server.cpp.o
 
 .PHONY : src/Pose_Finder_Server.o
@@ -2486,33 +2353,6 @@ src/retrigger_pick_place.cpp.s:
 	$(MAKE) -f CMakeFiles/retrigger_pick_place.dir/build.make CMakeFiles/retrigger_pick_place.dir/src/retrigger_pick_place.cpp.s
 .PHONY : src/retrigger_pick_place.cpp.s
 
-src/smart_pickplace_server.o: src/smart_pickplace_server.cpp.o
-
-.PHONY : src/smart_pickplace_server.o
-
-# target to build an object file
-src/smart_pickplace_server.cpp.o:
-	$(MAKE) -f CMakeFiles/smart_pickplace_server.dir/build.make CMakeFiles/smart_pickplace_server.dir/src/smart_pickplace_server.cpp.o
-.PHONY : src/smart_pickplace_server.cpp.o
-
-src/smart_pickplace_server.i: src/smart_pickplace_server.cpp.i
-
-.PHONY : src/smart_pickplace_server.i
-
-# target to preprocess a source file
-src/smart_pickplace_server.cpp.i:
-	$(MAKE) -f CMakeFiles/smart_pickplace_server.dir/build.make CMakeFiles/smart_pickplace_server.dir/src/smart_pickplace_server.cpp.i
-.PHONY : src/smart_pickplace_server.cpp.i
-
-src/smart_pickplace_server.s: src/smart_pickplace_server.cpp.s
-
-.PHONY : src/smart_pickplace_server.s
-
-# target to generate assembly for a file
-src/smart_pickplace_server.cpp.s:
-	$(MAKE) -f CMakeFiles/smart_pickplace_server.dir/build.make CMakeFiles/smart_pickplace_server.dir/src/smart_pickplace_server.cpp.s
-.PHONY : src/smart_pickplace_server.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2525,11 +2365,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... retrigger_pick_place"
-	@echo "... smart_pickplace_server"
-	@echo "... Object_PickPlace_Server"
-	@echo "... PickPlace_Action_Server"
 	@echo "... Pose_Finder_Server"
-	@echo "... Object_Detection_Server"
 	@echo "... my_services_genpy"
 	@echo "... my_services_generate_messages_py"
 	@echo "... my_services_genlisp"
@@ -2694,24 +2530,12 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... src/Object_Detection_Server.o"
-	@echo "... src/Object_Detection_Server.i"
-	@echo "... src/Object_Detection_Server.s"
-	@echo "... src/Object_PickPlace_Server.o"
-	@echo "... src/Object_PickPlace_Server.i"
-	@echo "... src/Object_PickPlace_Server.s"
-	@echo "... src/PickPlace_Action_Server.o"
-	@echo "... src/PickPlace_Action_Server.i"
-	@echo "... src/PickPlace_Action_Server.s"
 	@echo "... src/Pose_Finder_Server.o"
 	@echo "... src/Pose_Finder_Server.i"
 	@echo "... src/Pose_Finder_Server.s"
 	@echo "... src/retrigger_pick_place.o"
 	@echo "... src/retrigger_pick_place.i"
 	@echo "... src/retrigger_pick_place.s"
-	@echo "... src/smart_pickplace_server.o"
-	@echo "... src/smart_pickplace_server.i"
-	@echo "... src/smart_pickplace_server.s"
 .PHONY : help
 
 
